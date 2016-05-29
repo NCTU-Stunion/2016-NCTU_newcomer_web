@@ -54,6 +54,13 @@
                         echo"<li>";
                         echo"    <a class=\"page-scroll\" href=\"".$tab6."\">交大地圖</a>";
                         echo"</li>";
+                        echo"<li class=\"dropdown\">";
+                        echo"  <a href=\"#\" class=\"dropdown-toggle page-scroll\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">教學 <span class=\"caret\"></span></a>";
+                        echo"       <ul class=\"dropdown-menu\">";
+                        echo"           <li><a class=\"page-scroll\" href=\"#\">D2 申請</a></li>";
+                        echo"           <li><a class=\"page-scroll\" href=\"#\">選課教學</a></li>";
+                        echo"       </ul>";
+                        echo"</li>";
                         ?>
                     <li>
                         <a class="page-scroll" href="https://stunion.nctu.edu.tw/blog/" target = "_blank">學聯會網站</a>
