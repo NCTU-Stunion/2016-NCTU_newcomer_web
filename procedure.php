@@ -2,6 +2,7 @@
     include_once "header_opaque.php"; 
 ?>
   <link rel="stylesheet" href="assets/css/procedure.css">
+  <div class="parallax-window" data-parallax="scroll" data-image-src="assets/img/template.jpg">
   <div class="container-timeline">
     <div class="page-header">
       <h1 id="timeline">重要程序</h1>
@@ -128,6 +129,8 @@
       </li>
     </ul>
   </div>
+  </div>
+  <script src="assets/js/parallax.min.js"></script>
 <?php
     include_once "footer.php"; 
 ?>

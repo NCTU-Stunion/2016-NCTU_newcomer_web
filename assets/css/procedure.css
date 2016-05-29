@@ -1,9 +1,13 @@
 #timeline{
   text-align: center;
-  margin-top: 80px;
+  padding-top: 170px;
 }
-
-
+.body{
+  height:100%;
+}
+.parallax-window{
+  margin-top: -90px;
+}
 @media (min-width: 1200px)
 .container-timeline {
     width: 1170px;
@@ -17,6 +21,7 @@
     width: 750px;
 }
 .container-timeline {
+    height:100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -69,6 +74,7 @@
 .timeline > li > .timeline-panel {
   width: 46%;
   float: left;
+  background-color: #fbfbfb;
   border: 1px solid #d4d4d4;
   border-radius: 2px;
   padding: 20px;
