@@ -1,0 +1,156 @@
+@import "bourbon";
+
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  background: #181818;
+  overflow-y: scroll;
+}
+
+body {
+  font: 1em / 1.6 "Varela Round", Arial, sans-serif;
+  color: #999;
+  font-weight: 400;
+  max-width: 25em;
+  padding: 1em;
+  margin: 10% auto;
+}
+
+.icon {
+  display: block;
+  position: relative;
+  width: 1.5em;
+  height: 1.5em;
+  margin: 0 auto;
+
+  &:before, &:after {
+    content: "";
+    position: absolute;
+  }
+}
+
+// Dropp styles
+
+$bgColor: #242424;
+$trimColor: #dd4040;
+$textColor: #fff;
+
+.dropp {
+  width: 100%;
+  box-shadow: 0 1px 3px darken($bgColor, 10);
+}
+
+.dropp-header {
+  background: $bgColor;
+  color: $textColor;
+  border-bottom: 2px solid $trimColor;
+
+  @include align-items(stretch);
+
+  @include display(flex);
+
+  @include flex-direction(row);
+
+  @include justify-content(flex-start);
+}
+
+.dropp-header__title {
+  display: block;
+  padding: 0.8em 0.5em;
+
+  @include flex(8);
+
+  @include ellipsis(100%);
+}
+
+.dropp-header__btn {
+  display: block;
+  background: darken($bgColor, 3);
+  color: $textColor;
+  padding: 0.8em 0.5em;
+
+  @include flex(1);
+
+  @include transition(all 0.3s ease-in-out);
+
+  .icon {
+    @include transform(rotate(-90deg));
+
+    &:before, &:after {
+      top: 30%;
+      left: 25%;
+      width: 50%;
+      height: 15%;
+      background: $trimColor;
+
+      @include transform(rotate(-45deg));
+    }
+
+    &:after {
+      top: 55%;
+
+      @include transform(rotate(45deg));
+    }
+  }
+
+  &.js-open {
+    background: $trimColor;
+
+    .icon {
+      @include transform(rotate(90deg));
+
+      &:before, &:after {
+        background: $textColor;
+      }
+    }
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.dropp-body {
+  overflow: hidden;
+  width: 100%;
+  max-height: 0;
+  background: lighten($bgColor, 2);
+  color: $textColor;
+
+  @include transition(all 0.3s ease-in-out);
+
+  &.js-open {
+    max-height: 20em;
+  }
+
+  label {
+    display: block;
+    font-size: 0.875em;
+    color: $textColor;
+    text-decoration: none;
+    padding: 1em 0.5em;
+    font-weight: 400;
+    box-shadow: 0 -1px 0 darken($bgColor, 5), inset 0 1px 0 lighten($bgColor, 5);
+    cursor: pointer;
+
+    &:first-child {
+      box-shadow: none;
+    }
+
+    &:hover, &.js-open {
+      background: $trimColor;
+    }
+
+    > input {
+      display: none;
+    }
+  }
+}
