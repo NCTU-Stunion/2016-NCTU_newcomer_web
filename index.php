@@ -32,19 +32,21 @@
 		學雜費繳費
 		<i class="fa  fa-angle-double-right"></i>
 		選課</p>
+		<p><div class="custom-button">瞭解詳情</div></p>
 	</div>
 	<div class="bottom"></div>
 </section>
 <section id="shopping"> 
 	<div class="container">
 		<h2>新生團購</h2>
-		<p></p>
+		<p><div class="custom-button">選購吧</div></p>
 	</div>
 	<div class="bottom"></div>
 </section>
 <section id="qna">
 	<div class="container">
 		<h2>新生提問系統 精選問答集</h2>
+		<p><div class="custom-button">觀看</div></p>
 	</div>
 </section>
 <?php 
