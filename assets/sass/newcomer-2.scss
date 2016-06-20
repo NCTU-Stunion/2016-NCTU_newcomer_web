@@ -12,6 +12,35 @@
 .navbar{
     background-color: #fff;
     background-image: none!important;
+    .nav {
+        li {
+            a {
+                -webkit-transition: background .3s ease-in-out;
+                -moz-transition: background .3s ease-in-out;
+                transition: background .3s ease-in-out;
+                color:$navbar-color-2;
+                &:hover {
+                    color: rgba(#21825c, 0.8);
+                    outline: none;
+                    background-color: transparent;
+                }
+                &:focus,
+                &:active {
+                    outline: none;
+                    background-color: transparent;
+                }
+            }
+            &.active {
+                outline: none;
+                a {
+                    background-color: rgba(#21825c, 0.1);
+                    &:hover {
+                        color: #21825c;
+                    }
+                }
+            }
+        }
+    }
 }
 
 .item-container{

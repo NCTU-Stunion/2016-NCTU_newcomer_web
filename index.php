@@ -26,27 +26,27 @@
 	<div class="container">
 		<h2>重要程序</h2>
 		<p>註冊前須備妥之文件
-		<i class="fa  fa-angle-double-right"></i>
+		<i class="fa fa-angle-double-right"></i>
 		上網登錄基本資料
-		<i class="fa  fa-angle-double-right"></i>
+		<i class="fa fa-angle-double-right"></i>
 		學雜費繳費
-		<i class="fa  fa-angle-double-right"></i>
+		<i class="fa fa-angle-double-right"></i>
 		選課</p>
-		<p><div class="btn-1">瞭解詳情</div></p>
+		<p><div class="btn-1"><a href="./procedure.php">瞭解詳情</a></div></p>
 	</div>
 	<div class="bottom"></div>
 </section>
 <section id="shopping"> 
 	<div class="container">
 		<h2>新生團購</h2>
-		<p><div class="btn-2">選購吧</div></p>
+		<p><div class="btn-2"><a href="./shopping.php">選購吧</a></div></p>
 	</div>
 	<div class="bottom"></div>
 </section>
 <section id="qna">
 	<div class="container">
 		<h2>新生提問系統 精選問答集</h2>
-		<div class="btn-3">觀看</div>
+		<div class="btn-3"><a href="./qna.php">觀看</a></div> 
 	</div>
 </section>
 <?php 

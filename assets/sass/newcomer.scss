@@ -1,7 +1,6 @@
 @import 'variables';
 @import 'mixins';
 
-
 body {
     width: 100%;
     height: 100%;
@@ -88,7 +87,7 @@ a {
                 -webkit-transition: background .3s ease-in-out;
                 -moz-transition: background .3s ease-in-out;
                 transition: background .3s ease-in-out;
-                color:$navbar-color;
+                color:$navbar-color-2;
                 &:hover {
                     color: rgba(white, 0.8);
                     outline: none;

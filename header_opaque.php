@@ -15,7 +15,6 @@
         <link rel="stylesheet" href="assets/css/newcomer-2.css">
         <link rel="stylesheet" href="assets/css/newcomer.css">
         <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-        
 	</head>
 	<body>
 	   <nav class="navbar navbar-fixed-top navbar-custom2" role="navigation">
@@ -36,22 +35,22 @@
                         <a href="#page-top"></a>
                     </li>
                         <?php include_once "data/navbar-link.php"; 
-                        echo"<li>";
+                        echo"<li";if(stripos($_SERVER['REQUEST_URI'],"procedure")!=FALSE){echo" class = active";}else{echo" "; }echo">";
                         echo"    <a class=\"page-scroll\" href=\"".$tab1."\">初入交大</a>";
                         echo"</li>";
-                        echo"<li>";
+                        echo"<li";if(stripos($_SERVER['REQUEST_URI'],"qna")!=FALSE){echo" class = active";}else{echo" "; }echo">";
                         echo"    <a class=\"page-scroll\" href=\"".$tab2."\">精選問答</a>";
                         echo"</li>";
-                        echo"<li>";
+                        echo"<li";if(stripos($_SERVER['REQUEST_URI'],"shopping")!=FALSE){echo" class = active";}else{echo" "; }echo">";
                         echo"    <a class=\"page-scroll\" href=\"".$tab3."\">團購</a>";
                         echo"</li>";
-                        echo"<li>";
+                        echo"<li";if(stripos($_SERVER['REQUEST_URI'],"info")!=FALSE){echo" class = active";}else{echo" "; }echo">";
                         echo"    <a class=\"page-scroll\" href=\"".$tab4."\">生活資訊</a>";
                         echo"</li>";
-                        echo"<li>";
+                        echo"<li";if(stripos($_SERVER['REQUEST_URI'],"curricular")!=FALSE){echo" class = active";}else{echo" "; }echo">";
                         echo"    <a class=\"page-scroll\" href=\"".$tab5."\">社團資訊</a>";
                         echo"</li>";
-                        echo"<li>";
+                        echo"<li";if(stripos($_SERVER['REQUEST_URI'],"map")!=FALSE){echo" class = active";}else{echo" "; }echo">";
                         echo"    <a class=\"page-scroll\" href=\"".$tab6."\">交大地圖</a>";
                         echo"</li>";
                         echo"<li class=\"dropdown\">";

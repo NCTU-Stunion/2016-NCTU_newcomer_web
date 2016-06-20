@@ -11,6 +11,24 @@
 .navbar {
   background-color: #fff;
   background-image: none !important; }
+  .navbar .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+    color: #42dca3; }
+    .navbar .nav li a:hover {
+      color: rgba(33, 130, 92, 0.8);
+      outline: none;
+      background-color: transparent; }
+    .navbar .nav li a:focus, .navbar .nav li a:active {
+      outline: none;
+      background-color: transparent; }
+  .navbar .nav li.active {
+    outline: none; }
+    .navbar .nav li.active a {
+      background-color: rgba(33, 130, 92, 0.1); }
+      .navbar .nav li.active a:hover {
+        color: #21825c; }
 
 .item-container {
   padding: 9% 5% 0 5%; }

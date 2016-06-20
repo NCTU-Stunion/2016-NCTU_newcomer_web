@@ -248,6 +248,8 @@ body {
   /* negative positioning to hide it initially */
   background-repeat: no-repeat;
   transition: all ease 0.3s; }
+  .btn-1 a {
+    color: #f7f7f7; }
   .btn-1:hover {
     background-size: 200% 200%;
     /* 200% because gradient is colored only for 50% */
@@ -276,6 +278,8 @@ body {
   /* negative positioning to hide it initially */
   background-repeat: no-repeat;
   transition: all ease 0.3s; }
+  .btn-2 a {
+    color: #f7f7f7; }
   .btn-2:hover {
     background-size: 200% 200%;
     /* 200% because gradient is colored only for 50% */
@@ -304,6 +308,8 @@ body {
   /* negative positioning to hide it initially */
   background-repeat: no-repeat;
   transition: all ease 0.3s; }
+  .btn-3 a {
+    color: #0f345b; }
   .btn-3:hover {
     background-size: 200% 200%;
     /* 200% because gradient is colored only for 50% */
