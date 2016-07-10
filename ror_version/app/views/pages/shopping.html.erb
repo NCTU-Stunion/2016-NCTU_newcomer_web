@@ -1,3 +1,6 @@
+<% content_for :head do %>
+        <link rel="stylesheet" href="assets/newcomer-2.scss" />
+<% end %>
 <%= render("header2") %>
 <div class="item-container" id="manufacturer-1">
 	<span class="header">團購產品</span>
@@ -7,10 +10,19 @@
         		<img class="group list-group-image" src="assets/fx350es-2.jpg" />        
         			<div class="caption">            
         				<h4 class="group inner list-group-item-heading">CASIO fx-350ES PLUS</h4>            
-        				<p class="group inner list-group-item-text">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>            
+        				<p class="group inner list-group-item-text">
+                            <ul>
+                                <li>417個函數</li>
+                                <li>條列式統計資料編輯器</li>
+                                <li>10 + 2位數</li>
+                                <li>9個變數</li>
+                                <li>點矩陣顯示</li>
+                                <li>雙電源系統</li>
+                            </ul>            
+                        </p>            
         			<div class="row">                
         					<div class="col-xs-12 col-md-6">                    
-        						<p class="lead">380TWD</p>               
+        						<p class="lead">原價: 480/ 售380</p>               
         					</div>                
         					<div class="col-xs-12 col-md-6"></div>            
         			</div>
@@ -22,10 +34,18 @@
         		<img class="group list-group-image" src="assets/fx991es.jpg" />        
         			<div class="caption">            
         				<h4 class="group inner list-group-item-heading">CASIO fx-991ES PLUS</h4>            
-        				<p class="group inner list-group-item-text">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>            
+        				<p class="group inner list-group-item-text">
+                        <ul>
+                            <li>標準偏差</li>
+                            <li>雙曲線、反雙曲線 </li>
+                            <li>錯誤訊息功能</li>
+                            <li>10位數顯示</li>
+                            <li>保證卡(2年保固)</li>
+                        </ul>
+                        </p>            
         				<div class="row">                
         					<div class="col-xs-12 col-md-6">                  
-        						<p class="lead">650TWD</p>                
+        						<p class="lead">原價: 780/ 售650</p>                
         					</div>                
         				<div class="col-xs-12 col-md-6"></div>            
         			</div>
@@ -94,4 +114,3 @@
         </div>    
     </div>
 </div>
-<%= render("footer") %>

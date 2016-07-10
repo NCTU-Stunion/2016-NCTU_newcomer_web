@@ -1,4 +1,7 @@
 class PagesController < ApplicationController
+	def base2
+		render file:"pages/base2"
+	end
 	def index
 		@title = "主頁 | 網路新生包"
 		render params[:page]

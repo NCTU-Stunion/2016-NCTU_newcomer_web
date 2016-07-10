@@ -1,6 +1,8 @@
+<% content_for :head do %>
+		<link rel="stylesheet" href="assets/newcomer-2.scss" />
+		<link rel="stylesheet" href="assets/qna.scss" />
+<% end %>
 <%= render("header2") %>
-<link rel="stylesheet" href="assets/qna.scss" />
-
 <h1>新生提問系統 精選問答集</h1>
 <ul id="accordion" class="accordion">
   <li>  
@@ -67,4 +69,3 @@
 </ul>
 <div class="spacing"></div>
 <script src="assets/qna.js"></script>
-<%= render("footer") %>

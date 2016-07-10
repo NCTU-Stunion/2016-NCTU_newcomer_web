@@ -12,6 +12,7 @@
 #   get "/landing/:page" => "landing/#show"
 # end
   Rails.application.routes.draw do
+    get '/base2' => 'pages#base2', controller:'base2'
     get "/main" => "pages#main"
     get '/procedure' => 'pages#procedure', controller: 'procedure'
     get '/qna' => 'pages#qna',controller:'qna'
