@@ -1,6 +1,7 @@
 @import 'variables';
 @import 'mixins';
-
+@import "font-awesome-sprockets";
+@import "font-awesome";
 body {
     width: 100%;
     height: 100%;
@@ -71,15 +72,14 @@ a {
             outline: none;
         }
     }
-    .navbar-brand {
+    span.navbar-brand {
+        a{
         color:$navbar-color;
-        font-weight: 700;
+        font-weight: 600;
+        }
         &:focus {
             outline: none;
         }
-    }
-    a {
-        color: white;
     }
     .nav {
         li {
@@ -131,7 +131,7 @@ a {
     display:table;
     width:100%;
     height:100%;
-    background:url(../img/background.svg) no-repeat bottom center scroll;
+    background:url("background.svg") no-repeat bottom center scroll;
     background-size:cover;
     -webkit-background-size:cover;
     -moz-background-size:cover;
