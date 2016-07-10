@@ -17,6 +17,7 @@
     get '/procedure' => 'pages#procedure', controller: 'procedure'
     get '/qna' => 'pages#qna',controller:'qna'
     get '/shopping' => 'pages#shopping',controller: 'shopping'
+    get '/newtonA' => 'pages#newtonA',controller: 'newtonA'
     get '/d2setup' => 'pages#d2setup',controller: 'd2setup'
     get '/map' => 'pages#map', controller: 'map'
     get '/chooseClass' => 'pages#choose_class', controller: 'chooseClass'

@@ -72,4 +72,11 @@
 @-webkit-keyframes list-group-image {
     100% { -webkit-transform: translateX(0%); }
 }
-    
+span.header{
+    text-align:center;
+}
+span.header p{
+    color:#353535;
+    font-weight: 600;
+    font-size:2.3em;
+}

@@ -19,8 +19,12 @@
                          <li> 
                              <%= link_to "精選問答", qna_path %>
                          </li> 
-                         <li> 
-                             <%= link_to "團購", shopping_path %>
+                         <li class="dropdown"> 
+                             <a href="#" class="dropdown-toggle page-scroll" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">團購 <span class="caret"></span></a> 
+                             <ul class="dropdown-menu"> 
+                                <li><%= link_to "新生團購", shopping_path(anchor: "top") %></li>
+                                <li><%= link_to "Newton'sA 學生特價", newtonA_path %></li>
+                            </ul>
                          </li> 
                          <li> 
                              <%= link_to "生活資訊", qna_path %>
