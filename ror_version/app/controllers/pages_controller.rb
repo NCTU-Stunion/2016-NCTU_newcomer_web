@@ -18,7 +18,7 @@ class PagesController < ApplicationController
   		render params[:page]
   	end
   	def procedure 
-  		@title = "程序 | 網路新生包"
+  		@title = "重要程序 | 網路新生包"
   		render params[:page]
   	end
   	def qna
@@ -26,15 +26,15 @@ class PagesController < ApplicationController
   		render params[:page]
   	end
   	def d2setup
-  		@title = "D2設置 | 網路新生包"
+  		@title = "D2與宿網設置 | 網路新生包"
   		render params[:page]
   	end
   	def choose_class
-  		@title = "選課 | 網路新生包"
+  		@title = "選課教學 | 網路新生包"
   		render params[:page]
   	end
   	def map
-  		@title = "地圖 | 網路新生包"
+  		@title = "交大地圖 | 網路新生包"
   		render params[:page]
   	end
 end
