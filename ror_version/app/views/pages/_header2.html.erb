@@ -1,4 +1,4 @@
-       <nav class="navbar navbar-custom2 navbar-fixed-top" role="navigation">
+       <nav class="navbar navbar-custom2 navbar-fixed-top" role="navigation" id="top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
@@ -24,7 +24,7 @@
                              <ul class="dropdown-menu"> 
                                 <li><%= link_to "新生團購", shopping_path(anchor: "top") %></li>
                                 <li><%= link_to "Newton'sA 學生特價", newtonA_path %></li>
-                                <li><%= link_to "小七精美用品促銷", essentialShopping_path %></li>
+                                <li><%= link_to "小七精美用品促銷", essentialShopping_path(anchor: "top") %></li>
                             </ul>
                          </li> 
                          <li> 
