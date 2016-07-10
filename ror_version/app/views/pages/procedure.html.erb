@@ -2,7 +2,8 @@
         <link rel="stylesheet" href="assets/newcomer-2.scss" />
         <link rel="stylesheet" href="assets/procedure.css">
 <% end %>
- <div class="parallax-window" data-parallax="scroll" data-image-src="assets/img/template.jpg">
+<%= render('header2') %> 
+ <div class="parallax-window" data-parallax="scroll" data-image-src="/assets/template.jpg">
   <div class="container-timeline">
     <div class="page-header">
       <h1 id="timeline">重要程序</h1>
@@ -130,6 +131,5 @@
     </ul>
   </div>
   </div>
-  <script src="assets/js/parallax.min.js"></script>
-<%= render('header2') %> 
-
+  <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+  <script src="assets/parallax.min.js"></script>

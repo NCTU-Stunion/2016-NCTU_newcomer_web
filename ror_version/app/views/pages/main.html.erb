@@ -30,20 +30,23 @@
 			學雜費繳費
 			<i class="fa fa-angle-double-right"></i>
 			選課</p>
-			<p><div class="btn-1"><a href="./procedure.php">瞭解詳情</a></div></p>
+			<p><div class="btn-1">
+			<%= link_to "瞭解詳情", procedure_path %>
+			</div></p>
 		</div>
 		<div class="bottom"></div>
 	</section>
 	<section id="shopping"> 
 		<div class="container">
 			<h2>新生團購</h2>
-			<p><div class="btn-2"><a href="./shopping.php">選購吧</a></div></p>
+			<p><div class="btn-2">
+			<%= link_to "選購吧", shopping_path(anchor: "top") %></div></p>
 		</div>
 		<div class="bottom"></div>
 	</section>
 	<section id="qna">
 		<div class="container">
 			<h2>新生提問系統 精選問答集</h2>
-			<div class="btn-3"><a href="./qna.php">觀看</a></div> 
+			<div class="btn-3"><%= link_to "觀看", qna_path %></div> 
 		</div>
 	</section>

@@ -18,6 +18,7 @@
     get '/qna' => 'pages#qna',controller:'qna'
     get '/shopping' => 'pages#shopping',controller: 'shopping'
     get '/newtonA' => 'pages#newtonA',controller: 'newtonA'
+    get '/essentialShopping' =>'pages#essentialShopping',controller:'essentialShopping'
     get '/d2setup' => 'pages#d2setup',controller: 'd2setup'
     get '/map' => 'pages#map', controller: 'map'
     get '/chooseClass' => 'pages#choose_class', controller: 'chooseClass'
