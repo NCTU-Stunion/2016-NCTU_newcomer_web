@@ -131,22 +131,26 @@ a {
     display:table;
     width:100%;
     height:100%;
-    background:url("background.svg") no-repeat bottom center scroll;
+    background:url("background.jpg") no-repeat bottom center scroll;
     background-size:cover;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
-    .banner-img{
-        padding:20% 0 0 32%;
-        width:100%;
+    .cover-pic{
         height:100%;
+        width:100%;
+        background:url("cover-pic.svg") no-repeat bottom center scroll;
+        background-size:cover;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
     }
     .text-box{
         padding:50% 0 0 10%;
         h2{
             padding:2.5rem 5rem 2.5rem 5rem;
             margin: 0 28% 0 5%;
-            background-color:#e92669;
+            background-color:#10608c;
         }
     }
     .text-box-2{
@@ -154,7 +158,7 @@ a {
         h2{
             padding:2.5rem 2.5rem 2.5rem 5rem;
             margin:0 8% 0 8%;
-            background-color:#e92669;
+            background-color:#10608c;
         }
     }
 }
@@ -163,6 +167,7 @@ a {
     background: #f2b910;
     .container{
         background: #f2b910;
+        text-align:center;
         p{
             text-align:center;
         }
@@ -256,6 +261,11 @@ a {
         font-size:4rem;
         color:#2699d8;
     }
+    .footer-logo{
+        width:30%;
+        height:30%;
+        padding:2% 5% 2% 5%;
+    }
 }
 
 html{
@@ -292,3 +302,4 @@ body {
 .btn-3{
     @include custom-btn(#f7f7f7,#0f345b,#0f345b);
 }
+
