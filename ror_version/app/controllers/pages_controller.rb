@@ -10,13 +10,18 @@ class PagesController < ApplicationController
 		@title = "社團資訊 | 網路新生包"
     render params[:page]
   end
+  def studentAssociation
+    @title = "系學會 | 網路新生包"
+    render params[:page]
+  end
+  def alumnian
+    @title = "友會列表 ｜ 網路新生包"
+    render params[:page]
+  end
   def main
 		@title = "首頁 | 網路新生包"
 		render params[:page]
 	end
-  def application
-  		render params[:page]
-  end
   def procedure 
   		@title = "重要程序 | 網路新生包"
   	render params[:page]
@@ -37,12 +42,12 @@ class PagesController < ApplicationController
   		@title = "交大地圖 | 網路新生包"
   		render params[:page]
   end
-    def shopping
-      @title = "新生團購 | 網路新生包"
-      render params[:page]
-    end 
-    def newtonA
-      @title = "金牛頓學生特價 | 網路新生包"
-      render params[:page]
-    end
+  def shopping
+    @title = "新生團購 | 網路新生包"
+    render params[:page]
+  end 
+  def newtonA
+    @title = "金牛頓學生特價 | 網路新生包"
+    render params[:page]
+  end
 end

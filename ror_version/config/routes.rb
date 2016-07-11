@@ -12,17 +12,24 @@
 #   get "/landing/:page" => "landing/#show"
 # end
   Rails.application.routes.draw do
-    get '/base2' => 'pages#base2', controller:'base2'
-    get "/main" => "pages#main"
+    get '/main' => 'pages#main'
     get '/procedure' => 'pages#procedure', controller: 'procedure'
     get '/qna' => 'pages#qna',controller:'qna'
-    get '/shopping' => 'pages#shopping',controller: 'shopping'
-    get '/newtonA' => 'pages#newtonA',controller: 'newtonA'
-    get '/essentialShopping' =>'pages#essentialShopping',controller:'essentialShopping'
+    
     get '/d2setup' => 'pages#d2setup',controller: 'd2setup'
     get '/map' => 'pages#map', controller: 'map'
     get '/chooseClass' => 'pages#choose_class', controller: 'chooseClass'
+    
+    #all newcomer buying in NCTU
+    get '/shopping' => 'pages#shopping',controller: 'shopping'
+    get '/newtonA' => 'pages#newtonA',controller: 'newtonA'
+    get '/essentialShopping' =>'pages#essentialShopping',controller:'essentialShopping'
+    
+    #all association in NCTU
     get '/curricular' => 'pages#curricular', controller: 'curricular'
+    get '/studentAssociation' => 'pages#studentAssociation',controller:'studentAssociation'
+    get '/alumnian' => 'pages#alumnian',controller:'alumnian'
+
     root "pages#index", page: "main"
   end
   # Example of regular route:
