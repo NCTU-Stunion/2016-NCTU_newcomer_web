@@ -255,7 +255,11 @@ a {
             font-weight:500%;
             font-size:2rem;
             padding:0 0 2% 0;
+            a{
+                color:#dc4b5e;
+            }
         }
+        li a{color:$footer;}
     }
     .facebook-icon{
         font-size:4rem;
