@@ -66,7 +66,7 @@ a {
     .navbar-toggle {
         padding: 4px 6px;
         font-size: 25px;
-        color: $navbar-bar-color;
+        color: #27284e;
         &:focus,
         &:active {
             outline: none;
@@ -74,7 +74,7 @@ a {
     }
     span.navbar-brand {
         a{
-        color:$navbar-color;
+        color:#27284e;
         font-weight: 600;
         }
         &:focus {
@@ -87,7 +87,7 @@ a {
                 -webkit-transition: background .3s ease-in-out;
                 -moz-transition: background .3s ease-in-out;
                 transition: background .3s ease-in-out;
-                color:$navbar-color-2;
+                color:#27284e;
                 &:hover {
                     color: rgba(white, 0.8);
                     outline: none;
@@ -102,7 +102,7 @@ a {
             &.active {
                 outline: none;
                 a {
-                    background-color: rgba(#272822, 0.3);
+                    background-color: rgba(#27284e, 0.3);
                     &:hover {
                         color: white;
                     }

@@ -20,7 +20,7 @@
                 -webkit-transition: background .3s ease-in-out;
                 -moz-transition: background .3s ease-in-out;
                 transition: background .3s ease-in-out;
-                color:$navbar-color-2;
+                color:#27284e;
                 &:hover {
                     color: rgba(#21825c, 0.8);
                     outline: none;
@@ -80,7 +80,7 @@
 }
 .navbar-toggle{
     font-size:2rem;
-    color: $navbar-bar-color;
+    color: #27284e;
 }
 .list-group-item-text{
     margin: 0 0 11px;

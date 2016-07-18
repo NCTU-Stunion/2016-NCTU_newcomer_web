@@ -30,6 +30,10 @@
     get '/studentAssociation' => 'pages#studentAssociation',controller:'studentAssociation'
     get '/alumnian' => 'pages#alumnian',controller:'alumnian'
 
+    #footer content
+    get '/stunionIntro' => 'pages#stunionIntro',controller: 'stunionIntro'
+    #get '/aboutNCTU+' => 'pages#newtonA',controller: 'newtonA'
+    
     root "pages#index", page: "main"
   end
   # Example of regular route:

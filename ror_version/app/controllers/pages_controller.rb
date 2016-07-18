@@ -50,4 +50,8 @@ class PagesController < ApplicationController
     @title = "金牛頓學生特價 | 網路新生包"
     render params[:page]
   end
+  def stunionIntro
+    @title = "學聯會介紹 | 網路新生包"
+    render params[:page]
+  end
 end
