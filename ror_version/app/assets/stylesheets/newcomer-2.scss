@@ -85,3 +85,23 @@
 .list-group-item-text{
     margin: 0 0 11px;
 }
+#map{
+    padding:100px 0 80px 0;
+    background-color:#f1efd0;
+    position:relative;
+    section.map{
+        img{
+            display:block;
+            margin:auto;
+            width:840px;
+        }
+    }
+}
+@media screen and (min-width: 840px) {
+    section.map{
+        img{
+            width:100%;
+        }   
+    }
+
+}
