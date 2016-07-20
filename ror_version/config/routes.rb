@@ -11,31 +11,34 @@
 # Rails.application.routes.draw do
 #   get "/landing/:page" => "landing/#show"
 # end
-  Rails.application.routes.draw do
-    get '/main' => 'pages#main'
-    get '/procedure' => 'pages#procedure', controller: 'procedure'
-    get '/qna' => 'pages#qna',controller:'qna'
-    
-    get '/d2setup' => 'pages#d2setup',controller: 'd2setup'
-    get '/map' => 'pages#map', controller: 'map'
-    get '/chooseClass' => 'pages#choose_class', controller: 'chooseClass'
-    
-    #all newcomer buying in NCTU
-    get '/shopping' => 'pages#shopping',controller: 'shopping'
-    get '/newtonA' => 'pages#newtonA',controller: 'newtonA'
-    get '/essentialShopping' =>'pages#essentialShopping',controller:'essentialShopping'
-    
-    #all association in NCTU
-    get '/curricular' => 'pages#curricular', controller: 'curricular'
-    get '/studentAssociation' => 'pages#studentAssociation',controller:'studentAssociation'
-    get '/alumnian' => 'pages#alumnian',controller:'alumnian'
 
-    #footer content
-    get '/stunionIntro' => 'pages#stunionIntro',controller: 'stunionIntro'
-    #get '/aboutNCTU+' => 'pages#newtonA',controller: 'newtonA'
-    
-    root "pages#index", page: "main"
-  end
+Rails.application.routes.draw do
+  root "pages#main"
+
+  get '/main' => 'pages#main'
+  get '/procedure' => 'pages#procedure'
+  get '/qna' => 'pages#qna'
+  
+  get '/d2setup' => 'pages#d2setup'
+  get '/map' => 'pages#map'
+  get '/chooseClass' => 'pages#choose_class'
+  
+  #all newcomer buying in NCTU
+  get '/shopping' => 'pages#shopping'
+  get '/newtonA' => 'pages#newtonA'
+  get '/essentialShopping' =>'pages#essentialShopping'
+  
+  #all association in NCTU
+  get '/curricular' => 'pages#curricular'
+  get '/studentAssociation' => 'pages#studentAssociation'
+  get '/alumnian' => 'pages#alumnian'
+
+  #footer content
+  get '/stunionIntro' => 'pages#stunionIntro'
+  #get '/aboutNCTU+' => 'pages#aboutNCTU+'
+  
+end
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
