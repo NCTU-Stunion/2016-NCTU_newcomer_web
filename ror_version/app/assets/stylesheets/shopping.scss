@@ -103,12 +103,9 @@ li,h3{
     color:#353535;
 }
 /* PROGRESS TRACKER */
-.process{
-    margin-left: 15%;
-}
+
 .progress-tracker {
     display: block;
-    margin: 0 3% 0 0;
     counter-reset: item;
     list-style-type: none;
     overflow: auto;
@@ -137,7 +134,7 @@ li,h3{
     display: block;
     float: left;
     list-style-position: inside;
-    width: 25%;
+    width: 20%;
 }
 .progress-tracker .step .step-name{
     border-top: 7px solid #aaa;
