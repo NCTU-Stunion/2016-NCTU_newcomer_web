@@ -1,55 +1,58 @@
 <% content_for :head do %>
-        <link rel="stylesheet" href="assets/newcomer-2.scss" />
-		<link rel="stylesheet" href="assets/curricular.css" />
-		<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <%#<link rel="stylesheet" href="assets/newcomer-2.scss" />%>
+    <%#<link rel="stylesheet" href="assets/curricular.css" />%>
+    <%#<%= stylesheet_link_tag 'newcomer-2' %>%>
+    <%#<%= stylesheet_link_tag 'newcomer' %>%>
+    <%= stylesheet_link_tag 'curricular' %>
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 <% end %>
 <div class="spacing"></div>
 <section class="curricular">
 <table>
-  	<caption>社團列表</caption>
- 	<thead>
-	    <tr>
-	      <th scope="col">社團名稱</th>
-	      <th scope="col">圖片文宣</th>
-	      <th scope="col">預覽</th>
-	      <th scope="col">下載文件</th>
-	      <th scope="col">FB社團</th>
-	      <th scope="col">網站</th>
-	    </tr>
-  	</thead>
-	 <tbody>
-	    <tr>
-	    	<td scope="row" data-label="社團名稱">模擬聯合國社</td>
-	    	<td data-label="圖片文宣"><i class="fa fa-file-image-o"></i></td>
-	    	<td data-label="預覽"> </td>
-	    	<td data-label="下載文件"> </td>
-	    	<td data-label="FB社團">
-	    		<a href="https://www.facebook.com/nctumun"><i class="fa fa-facebook-official icon"></i></a>
-	    	</td>
-	    	<td data-label="網站"><a href="#"><i class="fa fa-chrome icon"></i></a></td>
-	    </tr>
-	    <tr>
-	    	<td scope="row" data-label="社團名稱">AIESEC</td>
-	    	<td data-label="圖片文宣"><i class="fa fa-file-image-o"></i></td>
-	    	<td data-label="預覽"> </td>
-	    	<td data-label="下載文件"> </td>
-	    	<td data-label="FB社團"><a href="https://www.facebook.com/AIESECNCU"><i class="fa fa-facebook-official icon"></i></a></td>
-	    	<td data-label="網站"><a href="#"><i class="fa fa-chrome icon"></i></a></td>
-	    </tr>
-	    <tr>
-		    <td scope="row" data-label="社團名稱">網路安全策進會</td>
-		    <td data-label="圖片文宣"><i class="fa fa-file-image-o"></i></td>
-		    <td data-label="預覽"> </td>
-		    <td data-label="下載文件"> </td>
-		    <td data-label="FB社團"><a href="https://www.facebook.com/NCTUCSC"><i class="fa fa-facebook-official icon"></i></a></td>
-		    <td data-label="網站"><a href="#"><i class="fa fa-chrome icon"></i></a></td>
-		</tr>
-	 </tbody>
+    <caption>社團列表</caption>
+    <thead>
+        <tr>
+            <th scope="col">社團名稱</th>
+            <th scope="col">圖片文宣</th>
+            <th scope="col">預覽</th>
+            <th scope="col">下載文件</th>
+            <th scope="col">FB社團</th>
+            <th scope="col">網站</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td scope="row" data-label="社團名稱">模擬聯合國社</td>
+            <td data-label="圖片文宣"><i class="fa fa-file-image-o"></i></td>
+            <td data-label="預覽"> </td>
+            <td data-label="下載文件"> </td>
+            <td data-label="FB社團">
+                <a href="https://www.facebook.com/nctumun"><i class="fa fa-facebook-official icon"></i></a>
+            </td>
+            <td data-label="網站"><a href="#"><i class="fa fa-chrome icon"></i></a></td>
+        </tr>
+        <tr>
+            <td scope="row" data-label="社團名稱">AIESEC</td>
+            <td data-label="圖片文宣"><i class="fa fa-file-image-o"></i></td>
+            <td data-label="預覽"> </td>
+            <td data-label="下載文件"> </td>
+            <td data-label="FB社團"><a href="https://www.facebook.com/AIESECNCU"><i class="fa fa-facebook-official icon"></i></a></td>
+            <td data-label="網站"><a href="#"><i class="fa fa-chrome icon"></i></a></td>
+        </tr>
+        <tr>
+            <td scope="row" data-label="社團名稱">網路安全策進會</td>
+            <td data-label="圖片文宣"><i class="fa fa-file-image-o"></i></td>
+            <td data-label="預覽"> </td>
+            <td data-label="下載文件"> </td>
+            <td data-label="FB社團"><a href="https://www.facebook.com/NCTUCSC"><i class="fa fa-facebook-official icon"></i></a></td>
+            <td data-label="網站"><a href="#"><i class="fa fa-chrome icon"></i></a></td>
+        </tr>
+    </tbody>
 </table>
 <div class="row important">
-	<h4>(註：社團資料陸續增加中！該欄空白代表該社團並未提供該項資料。此表並非所有社團，僅為有提供資料之社團)
-	<p>以上資料由各社團提供，並不代表學聯會立場</p>
-</h4>
+    <h4>(註：社團資料陸續增加中！該欄空白代表該社團並未提供該項資料。此表並非所有社團，僅為有提供資料之社團)
+        <p>以上資料由各社團提供，並不代表學聯會立場</p>
+    </h4>
 </div>
 </section>
 <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>

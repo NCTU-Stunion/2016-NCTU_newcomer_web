@@ -8,17 +8,23 @@
 .parallax-window{
   margin-top: -90px;
 }
-@media (min-width: 1200px)
+
+@media (min-width: 768px) {
 .container-timeline {
-    width: 1170px;
+    width: 750px;
 }
-@media (min-width: 992px)
+}
+
+@media (min-width: 992px) {
 .container-timeline {
     width: 970px;
 }
-@media (min-width: 768px)
+}
+
+@media (min-width: 1200px) {
 .container-timeline {
-    width: 750px;
+    width: 1170px;
+}
 }
 .container-timeline {
     height:100%;
