@@ -20,7 +20,7 @@ class PagesController < ApplicationController
   def d2setup
     @title = "D2與宿網設置 | 網路新生包"
   end
-  def choose_class
+  def chooseClass
     @title = "選課教學 | 網路新生包"
   end
   def map

@@ -21,7 +21,7 @@ Rails.application.routes.draw do
   
   get '/d2setup' => 'pages#d2setup'
   get '/map' => 'pages#map'
-  get '/chooseClass' => 'pages#choose_class'
+  get '/chooseClass' => 'pages#chooseClass'
   
   #all newcomer buying in NCTU
   get '/shopping' => 'pages#shopping'

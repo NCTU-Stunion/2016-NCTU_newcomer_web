@@ -17,5 +17,7 @@ Rails.application.config.assets.precompile =  ['*.js', 'application.scss', '*.cs
     'qna.css',
     'intro.css',
     'procedure.css',
-    'setup.css'
+    'setup.css',
+    'chooseClass.css',
+    'chooseClass/*.png'
 ]
