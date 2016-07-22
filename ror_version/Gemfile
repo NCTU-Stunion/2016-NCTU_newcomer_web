@@ -8,6 +8,7 @@ gem 'sqlite3'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'jquery-easing-rails'
 
 gem 'bourbon', '4.2.7'
 # Use SCSS for stylesheets
