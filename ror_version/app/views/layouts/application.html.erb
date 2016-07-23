@@ -24,14 +24,12 @@
         <link rel="shortcut icon" href="assets/logo.png">
         <%= stylesheet_link_tag 'newcomer-2' %>
         <%= stylesheet_link_tag 'newcomer' %>
-        <%= yield :head %>
     </head>
     <body>
         <%= render "layouts/header" %>
         <%= yield %>
         <%= render "layouts/footer" %>
 
-        <script src="assets/newcomer.js"></script>
-        <script src="assets/shopping.js"></script>
+        <%= javascript_include_tag 'newcomer' %>
     </body>
 </html>
