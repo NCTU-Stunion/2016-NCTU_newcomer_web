@@ -14,13 +14,10 @@
         <meta property = "og:type" content="website">
         <meta property = "og:description" content="交大新生絕對不能錯過的網路新生包">
         <meta property = "og:title" content="交通大學網路新生包">
-
         <title><%= render_title %></title>
-
         <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
         <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
         <%= csrf_meta_tags %>
-
         <link rel="shortcut icon" href="assets/logo.png">
         <%= stylesheet_link_tag 'newcomer-2' %>
         <%= stylesheet_link_tag 'newcomer' %>
@@ -29,7 +26,6 @@
         <%= render "layouts/header" %>
         <%= yield %>
         <%= render "layouts/footer" %>
-
         <%= javascript_include_tag 'newcomer' %>
     </body>
 </html>
