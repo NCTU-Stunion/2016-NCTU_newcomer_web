@@ -7,8 +7,18 @@
         <% if @data[i]["img"] != "none" %>
         	<% if i%2 == 0 %>
             <div class="row">
-                <div class="col-sm-6 pic-col"> 
-		            <%=raw " <img src=\"/assets/curricular/#{@data[i]["img"]}\" > " %>
+                <% if @data[i]["color"] == "white" %> 
+                	<div class="col-sm-6 pic-col minor-1">
+                <% elsif @data[i]["color"] == "milk" %> 
+		            <div class="col-sm-6 pic-col minor-2">
+		        <% elsif @data[i]["color"] == "grey" %> 
+					<div class="col-sm-6 pic-col minor-3">
+		        <% else %>
+		        	<div class="col-sm-6 pic-col">
+		        <% end %>
+		        
+		        <%=raw " <img src=\"/assets/curricular/#{@data[i]["img"]}\" > " %>
+
                 </div>
                 <div class="col-sm-6 text-col">
                     <h3><%=raw @data[i]["name"] %></h3>
@@ -55,7 +65,15 @@
                     <% end %>
                     </section>
                 </div>
-                <div class="col-sm-6 pic-col"> 
+                <% if @data[i]["color"] == "white" %> 
+                	<div class="col-sm-6 pic-col minor-1">
+                <% elsif @data[i]["color"] == "milk" %> 
+		            <div class="col-sm-6 pic-col minor-2">
+		        <% elsif @data[i]["color"] == "grey" %> 
+					<div class="col-sm-6 pic-col minor-3">
+		        <% else %>
+		        	<div class="col-sm-6 pic-col">
+		        <% end %>
 		            <%=raw " <img src=\"/assets/curricular/#{@data[i]["img"]}\" > " %>
                 </div>
                 

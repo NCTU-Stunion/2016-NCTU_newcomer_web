@@ -80,6 +80,7 @@ span{
   padding-top:0;
   margin-top:0;
   background-color:#040308;
+  z-index:1;
   img {
     position: absolute;
     margin: auto;
@@ -95,6 +96,7 @@ span{
   height:400px;
   padding-top:120px;
   text-align:center;
+  z-index:3;
   hr{
     width:80px;
     border-width: 2px;
@@ -120,6 +122,7 @@ span{
   }
   .text-col{
     min-width:300px;
+    z-index:3;
   }
 }
 .minor-1{

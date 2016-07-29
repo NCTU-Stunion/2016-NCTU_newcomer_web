@@ -7,7 +7,15 @@
         <% if @data[i]["img"] != "none" %>
             <% if i%2 == 0 %>
             <div class="row">
-                <div class="col-sm-6 pic-col"> 
+                <% if @data[i]["color"] == "white" %> 
+                    <div class="col-sm-6 pic-col minor-1">
+                <% elsif @data[i]["color"] == "milk" %> 
+                    <div class="col-sm-6 pic-col minor-2">
+                <% elsif @data[i]["color"] == "grey" %> 
+                    <div class="col-sm-6 pic-col minor-3">
+                <% else %>
+                    <div class="col-sm-6 pic-col">
+                <% end %>
                     <%=raw " <img src=\"/assets/studentAssociation/#{@data[i]["img"]}\" > " %>
                 </div>
                 <div class="col-sm-6 text-col">
@@ -27,6 +35,11 @@
                     <% if @data[i]["pdf"] != "none" %>
                         <%= link_to "pdf/studentAssociation/#{@data[i]["pdf"]}", :target => '_blank' do %>
                             <p>PDF</p>
+                        <% end %>
+                    <% end %>
+                    <% if @data[i]["109"] != nil %>
+                        <%= link_to @data[i]["109"], :target => '_blank' do %>
+                            <p>新生</p>
                         <% end %>
                     <% end %>
                     </section>
@@ -53,9 +66,22 @@
                             <p>PDF</p>
                         <% end %>
                     <% end %>
+                    <% if @data[i]["109"] != nil %>
+                        <%= link_to @data[i]["109"], :target => '_blank' do %>
+                            <p>新生</p>
+                        <% end %>
+                    <% end %>
                     </section>
                 </div>
-                <div class="col-sm-6 pic-col"> 
+                <% if @data[i]["color"] == "white" %> 
+                    <div class="col-sm-6 pic-col minor-1">
+                <% elsif @data[i]["color"] == "milk" %> 
+                    <div class="col-sm-6 pic-col minor-2">
+                <% elsif @data[i]["color"] == "grey" %> 
+                    <div class="col-sm-6 pic-col minor-3">
+                <% else %>
+                    <div class="col-sm-6 pic-col">
+                <% end %>
                     <%=raw " <img src=\"/assets/studentAssociation/#{@data[i]["img"]}\" > " %>
                 </div>
                 
@@ -82,6 +108,11 @@
                             <p>PDF</p>
                         <% end %>
                     <% end %>
+                    <% if @data[i]["109"] != nil %>
+                        <%= link_to @data[i]["109"], :target => '_blank' do %>
+                            <p>新生</p>
+                        <% end %>
+                    <% end %>
                     </section>
                 </div>
                 <% if i < 19 %>
@@ -103,6 +134,11 @@
                     <% if @data[i]["pdf"] != "none" %>
                         <%= link_to "pdf/studentAssociation/#{@data[i]["pdf"]}", :target => '_blank' do %>
                             <p>PDF</p>
+                        <% end %>
+                    <% end %>
+                    <% if @data[i]["109"] != nil %>
+                        <%= link_to @data[i]["109"], :target => '_blank' do %>
+                            <p>新生</p>
                         <% end %>
                     <% end %>
                     </section>
