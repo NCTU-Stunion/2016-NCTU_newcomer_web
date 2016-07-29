@@ -9,7 +9,6 @@
             <div class="row">
                 <div class="col-sm-6 pic-col"> 
 		            <%=raw " <img src=\"/assets/curricular/#{@data[i]["img"]}\" > " %>
-<!--                     <img src="/assets/curricular/#{data[i]["img"]}" > -->
                 </div>
                 <div class="col-sm-6 text-col">
                     <h3><%=raw @data[i]["name"] %></h3>
@@ -113,4 +112,9 @@
         <% end %>
         <% i += 1 %>
     <% end %>
+   <div class="row important">
+    <h4>(註：社團資料陸續增加中！該欄空白代表該社團並未提供該項資料。此表並非所有社團，僅為有提供資料之社團)
+        <p>以上資料由各社團提供，並不代表學聯會立場</p>
+    </h4>
+</div>
 </section>
