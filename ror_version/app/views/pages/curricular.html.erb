@@ -1,107 +1,116 @@
 <%= stylesheet_link_tag 'curricular' %>
 <div class="spacing"></div>
 <section class="curricular">
-	<span><h3>系學會列表</h3></span>
-	<div class="row">
-		<div class="col-sm-6 pic-col"> 
-			<img src="/assets/curricular/國標.jpg" >
-		</div>
-		<div class="col-sm-6 text-col">
-			<h3>交通大學國際標準舞社</h3>
-			<hr>
-			<section class="icons">
-			<%= link_to "https://www.facebook.com/groups/1793049137607116/", :target => '_blank' do %>
-			<p><i class="fa fa-facebook-official fa-lg"></i></p>
-			<% end %>
-			<%= link_to "pdf/國標.pdf", :target => '_blank' do %>
-				<p>PDF</p>
-			<% end %>
-			</section>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-sm-6 text-col">
-			<h3>網絡安全進策會</h3>
-			<hr>
-			<section class="icons">
-			<%= link_to "＃", :target => '_blank' do %>
-			<p><i class="fa fa-facebook-official fa-lg"></i></p>
-			<% end %>
-			<%= link_to "pdf/#.pdf", :target => '_blank' do %>
-				<p>PDF</p>
-			<% end %>
-			</section>
-		</div>
-		<div class="col-sm-6 pic-col"> 
-			<img src="/assets/curricular/網安.jpg" >
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-sm-6 pic-col"> 
-			<img src="/assets/curricular/魔術.jpg" >
-		</div>
-		<div class="col-sm-6 text-col">
-			<h3>交大魔術社</h3>
-			<hr>
-			<section class="icons">
-			<%= link_to "＃", :target => '_blank' do %>
-			<p><i class="fa fa-facebook-official fa-lg"></i></p>
-			<% end %>
-			<%= link_to "pdf/#.pdf", :target => '_blank' do %>
-				<p>PDF</p>
-			<% end %>
-			</section>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-sm-6 text-col">
-			<h3>交大管弦樂團</h3>
-			<hr>
-			<section class="icons">
-			<%= link_to "＃", :target => '_blank' do %>
-			<p><i class="fa fa-facebook-official fa-lg"></i></p>
-			<% end %>
-			<%= link_to "pdf/#.pdf", :target => '_blank' do %>
-				<p>PDF</p>
-			<% end %>
-			</section>
-		</div>
-		<div class="col-sm-6 pic-col"> 
-			<img src="/assets/curricular/管樂.jpg" >
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-sm-6 pic-col minor-1"> 
-			<img src="/assets/curricular/汪汪.jpg" >
-		</div>
-		<div class="col-sm-6 text-col">
-			<h3>汪汪社</h3>
-			<hr>
-			<section class="icons">
-			<%= link_to "＃", :target => '_blank' do %>
-			<p><i class="fa fa-facebook-official fa-lg"></i></p>
-			<% end %>
-			<%= link_to "pdf/#.pdf", :target => '_blank' do %>
-				<p>PDF</p>
-			<% end %>
-			</section>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-sm-6 text-col">
-			<h3>劍道社</h3>
-			<hr>
-			<section class="icons">
-			<%= link_to "＃", :target => '_blank' do %>
-			<p><i class="fa fa-facebook-official fa-lg"></i></p>
-			<% end %>
-			<%= link_to "pdf/#.pdf", :target => '_blank' do %>
-				<p>PDF</p>
-			<% end %>
-			</section>
-		</div>
-		<div class="col-sm-6 pic-col"> 
-			<img src="/assets/curricular/劍道.jpg" >
-		</div>
-	</div>
+	<span><h3>社團會列表</h3></span>
+	<% i = 0 %>
+	<% while i <= 42  do %>
+        <% if @data[i]["img"] != "none" %>
+        	<% if i%2 == 0 %>
+            <div class="row">
+                <div class="col-sm-6 pic-col"> 
+		            <%=raw " <img src=\"/assets/curricular/#{@data[i]["img"]}\" > " %>
+<!--                     <img src="/assets/curricular/#{data[i]["img"]}" > -->
+                </div>
+                <div class="col-sm-6 text-col">
+                    <h3><%=raw @data[i]["name"] %></h3>
+                    <hr>
+                    <section class="icons">
+                    <% if @data[i]["fb"] != "none" %>
+                        <%= link_to @data[i]["fb"], :target => '_blank' do %>
+                        <p><i class="fa fa-facebook-official fa-lg"></i></p>
+                        <% end %>
+                    <% end %>
+                    <% if @data[i]["web"] != "none" %>
+                        <%= link_to @data[i]["web"], :target => '_blank' do %>
+                            <p><i class="fa fa-chrome fa-lg"></i></p>
+                        <% end %>
+                    <% end %>
+                    <% if @data[i]["pdf"] != "none" %>
+                        <%= link_to "pdf/curricular/#{@data[i]["pdf"]}", :target => '_blank' do %>
+                            <p>PDF</p>
+                        <% end %>
+                    <% end %>
+                    </section>
+                </div>
+            </div>
+            <% else %>
+            <div class="row">
+            	<div class="col-sm-6 text-col">
+                    <h3><%=raw @data[i]["name"] %></h3>
+                    <hr>
+                    <section class="icons">
+                    <% if @data[i]["fb"] != "none" %>
+                        <%= link_to @data[i]["fb"], :target => '_blank' do %>
+                        <p><i class="fa fa-facebook-official fa-lg"></i></p>
+                        <% end %>
+                    <% end %>
+                    <% if @data[i]["web"] != "none" %>
+                        <%= link_to @data[i]["web"], :target => '_blank' do %>
+                            <p><i class="fa fa-chrome fa-lg"></i></p>
+                        <% end %>
+                    <% end %>
+                    <% if @data[i]["pdf"] != "none" %>
+                        <%= link_to "pdf/curricular/#{@data[i]["pdf"]}", :target => '_blank' do %>
+                            <p>PDF</p>
+                        <% end %>
+                    <% end %>
+                    </section>
+                </div>
+                <div class="col-sm-6 pic-col"> 
+		            <%=raw " <img src=\"/assets/curricular/#{@data[i]["img"]}\" > " %>
+                </div>
+                
+            </div>
+            <% end %>
+        <% else %>
+            <div class="row">
+                <div class="col-sm-6 text-col">
+                    <h3><%=raw @data[i]["name"] %></h3>
+                    <hr>
+                    <section class="icons">
+                    <% if @data[i]["fb"] != "none" %>
+                        <%= link_to @data[i]["fb"], :target => '_blank' do %>
+                        <p><i class="fa fa-facebook-official fa-lg"></i></p>
+                        <% end %>
+                    <% end %>
+                    <% if @data[i]["web"] != "none" %>
+                        <%= link_to @data[i]["web"], :target => '_blank' do %>
+                            <p><i class="fa fa-chrome fa-lg"></i></p>
+                        <% end %>
+                    <% end %>
+                    <% if @data[i]["pdf"] != "none" %>
+                        <%= link_to "pdf/curricular/#{@data[i]["pdf"]}", :target => '_blank' do %>
+                            <p>PDF</p>
+                        <% end %>
+                    <% end %>
+                    </section>
+                </div>
+                <% if i < 42 %>
+                <% i += 1 %>
+                <div class="col-sm-6 text-col">
+                    <h3><%=raw @data[i]["name"] %></h3>
+                    <hr>
+                    <section class="icons">
+                    <% if @data[i]["fb"] != "none" %>
+                        <%= link_to @data[i]["fb"], :target => '_blank' do %>
+                        <p><i class="fa fa-facebook-official fa-lg"></i></p>
+                        <% end %>
+                    <% end %>
+                    <% if @data[i]["web"] != "none" %>
+                        <%= link_to @data[i]["web"], :target => '_blank' do %>
+                            <p><i class="fa fa-chrome fa-lg"></i></p>
+                        <% end %>
+                    <% end %>
+                    <% if @data[i]["pdf"] != "none" %>
+                        <%= link_to "pdf/curricular/#{@data[i]["pdf"]}", :target => '_blank' do %>
+                            <p>PDF</p>
+                        <% end %>
+                    <% end %>
+                    </section>
+                </div>
+                <% end %>
+            </div>
+        <% end %>
+        <% i += 1 %>
+    <% end %>
 </section>
