@@ -44,6 +44,8 @@ group :development, :test do
   gem 'byebug'
   # Use rspec to test
   gem 'rspec-rails'
+  # Use pry instead of irb
+  gem 'pry-rails'
 end
 
 group :development do
