@@ -3,7 +3,7 @@
 <section class="curricular">
 	<span><h3>社團會列表</h3></span>
 	<% i = 0 %>
-	<% while i <= 49  do %>
+	<% while i <= 48  do %>
         <% if @data[i]["img"] != "none" %>
         	<% if i%2 == 0 %>
             <div class="row">
@@ -102,7 +102,7 @@
                     <% end %>
                     </section>
                 </div>
-                <% if i < 49 %>
+                <% if i < 48 %>
                 <% i += 1 %>
                 <div class="col-sm-6 text-col">
                     <h3><%=raw @data[i]["name"] %></h3>
