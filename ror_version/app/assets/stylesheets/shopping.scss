@@ -76,6 +76,7 @@ span.header{
     text-align:center;
 }
 span.header p{
+    margin-top:80px;
     color:#353535;
     font-weight: 600;
     font-size:2.3em;
@@ -149,3 +150,7 @@ li,h3{
 /*active step*/
 .progress-tracker .step.active .step-name {color: #666;}
 .progress-tracker .step.active:before {background: #458be3;}
+.form{
+    min-width:100%;
+    height:500px;
+}
