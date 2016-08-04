@@ -75,7 +75,7 @@ a {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(white, 0.3);
     text-transform: uppercase;
-    font-family: '谷歌黑體';
+    font-family: 'NotoSans';
     font-size: 1.18em;
     font-weight:500;
     background-color: #f3faf5;
@@ -105,9 +105,9 @@ a {
                 transition: background .3s ease-in-out;
                 color:#27284e;
                 &:hover {
-                    color: rgba(white, 0.8);
+                    color: rgba(39,40,78, 0.8);
                     outline: none;
-                    background-color: transparent;
+                    background-color: rgba(#27284e, 0.3);
                 }
                 &:focus,
                 &:active {
@@ -353,5 +353,10 @@ a {
         }
     }
 }
+}
+.end-qna{
+    padding:80px 0 80px 0;
+    text-align:center;
+    background-color:#10608c;
 }
 

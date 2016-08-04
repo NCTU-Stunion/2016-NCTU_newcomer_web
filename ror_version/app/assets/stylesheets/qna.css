@@ -21,7 +21,6 @@ a {
  * Contenedor Principal
  ===========================*/
 
-
 h1 {
   color: #364555;
   font-size: 24px;
@@ -93,7 +92,7 @@ h1 {
 
 .submenu {
   display: none;
-  background: #eef9ff;
+  background: #f3faf5;
   font-size: 14px;
 }
 

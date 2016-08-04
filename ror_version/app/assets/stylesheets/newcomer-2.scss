@@ -22,9 +22,9 @@
                 transition: background .3s ease-in-out;
                 color:#27284e;
                 &:hover {
-                    color: rgba(#21825c, 0.8);
+                    color: rgba(39,40,78, 0.8);
                     outline: none;
-                    background-color: transparent;
+                    background-color: rgba(#27284e, 0.3);
                 }
                 &:focus,
                 &:active {
