@@ -3,24 +3,11 @@
 <section class="curricular">
 	<span><h3>社團會列表</h3></span>
 	<% i = 0 %>
-	<% while i <= 49  do %>
+	<% while i <= 48  do %>
         <% if @data[i]["img"] != "none" %>
         	<% if i%2 == 0 %>
             <div class="row">
-                <% if @data[i]["color"] == "white" %> 
-                	<div class="col-sm-6 pic-col minor-1">
-                <% elsif @data[i]["color"] == "milk" %> 
-		            <div class="col-sm-6 pic-col minor-2">
-		        <% elsif @data[i]["color"] == "grey" %> 
-					<div class="col-sm-6 pic-col minor-3">
-		        <% else %>
-		        	<div class="col-sm-6 pic-col">
-		        <% end %>
-		        
-		        <%=raw " <img src=\"/assets/curricular/#{@data[i]["img"]}\" > " %>
-
-                </div>
-                <div class="col-sm-6 text-col">
+                <div class="col-sm-6 col-sm-push-6 text-col">
                     <h3><%=raw @data[i]["name"] %></h3>
                     <hr>
                     <section class="icons">
@@ -41,6 +28,20 @@
                     <% end %>
                     </section>
                 </div>
+                <% if @data[i]["color"] == "white" %> 
+                	<div class="col-sm-6 col-sm-pull-6 pic-col minor-1">
+                <% elsif @data[i]["color"] == "milk" %> 
+		            <div class="col-sm-6 col-sm-pull-6 pic-col minor-2">
+		        <% elsif @data[i]["color"] == "grey" %> 
+					<div class="col-sm-6 col-sm-pull-6 pic-col minor-3">
+		        <% else %>
+		        	<div class="col-sm-6 col-sm-pull-6 pic-col">
+		        <% end %>
+		        
+		        <%=raw " <img src=\"/assets/curricular/#{@data[i]["img"]}\" > " %>
+
+                </div>
+                
             </div>
             <% else %>
             <div class="row">
@@ -102,7 +103,7 @@
                     <% end %>
                     </section>
                 </div>
-                <% if i < 49 %>
+                <% if i < 48 %>
                 <% i += 1 %>
                 <div class="col-sm-6 text-col">
                     <h3><%=raw @data[i]["name"] %></h3>

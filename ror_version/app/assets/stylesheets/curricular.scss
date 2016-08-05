@@ -116,9 +116,11 @@ span{
   }
 }
 @media screen and (max-width: 600px) {
-  .pic-col img{
-    width:100%;
-    height:auto;
+  .pic-col{
+     img{
+      width:100%;
+      height:auto;
+    }
   }
   .text-col{
     min-width:300px;
