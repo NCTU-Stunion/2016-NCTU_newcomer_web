@@ -11,10 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160730005332) do
+ActiveRecord::Schema.define(version: 20160805170228) do
 
   create_table "newcomer_clubs", force: :cascade do |t|
-    t.string   "club_type"
+    t.string   "category"
     t.string   "name"
     t.string   "pdf"
     t.string   "web"
@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 20160730005332) do
     t.string   "color"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string   "group"
   end
 
 end
