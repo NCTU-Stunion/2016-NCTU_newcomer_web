@@ -1,5 +1,5 @@
 <% datas.each_with_index do |data, counter| %>
-    <% if data["img"] != "none" %>
+    <% if data[:img] != nil %>
         <% if counter%2 == 0 %>
             <% # image left %>
             <%= render 'club_info', :data => data, :category => category, :push => true %>

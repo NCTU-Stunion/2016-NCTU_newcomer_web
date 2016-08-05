@@ -3,26 +3,26 @@
 <% else %>
     <div class="col-sm-6 text-col">
 <% end %>
-    <h3><%=raw data["name"] %></h3>
+    <h3><%=raw data[:name] %></h3>
     <hr>
     <section class="icons">
-    <% if data["fb"] != "none" %>
-        <%= link_to data["fb"], :target => '_blank' do %>
+    <% if data[:fb] != nil %>
+        <%= link_to data[:fb], :target => '_blank' do %>
             <p><i class="fa fa-facebook-official fa-lg"></i></p>
         <% end %>
     <% end %>
-    <% if data["web"] != "none" %>
-        <%= link_to data["web"], :target => '_blank' do %>
+    <% if data[:web] != nil %>
+        <%= link_to data[:web], :target => '_blank' do %>
             <p><i class="fa fa-chrome fa-lg"></i></p>
         <% end %>
     <% end %>
-    <% if data["pdf"] != "none" %>
-        <%= link_to "pdf/#{category}/#{data["pdf"]}", :target => '_blank' do %>
+    <% if data[:pdf] != nil %>
+        <%= link_to "pdf/#{category}/#{data[:pdf]}", :target => '_blank' do %>
             <p>PDF</p>
         <% end %>
     <% end %>
-    <% if data["109"] != nil %>
-        <%= link_to data["109"], :target => '_blank' do %>
+    <% if data[:group] != nil %>
+        <%= link_to data[:group], :target => '_blank' do %>
             <p>新生</p>
         <% end %>
     <% end %>
