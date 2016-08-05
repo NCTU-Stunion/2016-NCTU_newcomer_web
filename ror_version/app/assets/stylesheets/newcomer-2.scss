@@ -11,7 +11,16 @@
     -moz-border-radius: 0px;
     border-radius: 0px;
 }
-.navbar{
+.navbar-custom2{
+    display: inline-block;
+    float: none;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(white, 0.3);
+    text-transform: uppercase;
+    font-family: 'NotoSans';
+    font-size: 1.18em;
+    font-weight:500;
+    background-color: #f3faf5;
     background-color: #fff;
     background-image: none!important;
     .nav {
@@ -24,7 +33,7 @@
                 &:hover {
                     color: rgba(39,40,78, 0.8);
                     outline: none;
-                    background-color: rgba(#27284e, 0.3);
+                    background-color: rgba(#27284e, 0.1);
                 }
                 &:focus,
                 &:active {
@@ -86,8 +95,8 @@
     margin: 0 0 11px;
 }
 #map{
-    width:100%;
-    padding:100px 0 80px 0;
+    width:103%;
+    padding:8% 0 20px 0;
     background-color:#f1efd0;
     position:relative;
     section.map{
@@ -98,11 +107,8 @@
         }
     }
 }
-@media screen and (min-width: 840px) {
-    section.map{
-        img{
-            width:100%;
-        }   
-    }
-
+@media screen and (max-width: 625px) {
+    img{
+        width:100%;
+    }   
 }

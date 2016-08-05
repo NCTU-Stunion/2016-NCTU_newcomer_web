@@ -27,6 +27,7 @@ body {
 html {
     width: 100%;
     height: 100%;
+    overflow-x:hidden;
 }
 
 h1,
@@ -107,7 +108,7 @@ a {
                 &:hover {
                     color: rgba(39,40,78, 0.8);
                     outline: none;
-                    background-color: rgba(#27284e, 0.3);
+                    background-color: rgba(#27284e, 0.1);
                 }
                 &:focus,
                 &:active {
@@ -258,8 +259,8 @@ a {
     }
 }
 .footer-custom{
-    text-align:center;
-    padding: 3% 3% 3% 3%;
+    text-align:left;
+    padding: 3% 0 3% 0;
     font-family: 'NotoSans';
     .footer-lower-bar{
         color:$footer;
@@ -274,12 +275,20 @@ a {
             color:#dc4b5e;
             font-weight:500%;
             font-size:2rem;
-            padding:0 0 2% 0;
+            margin:5px;
+            padding:5px;
             a{
                 color:#dc4b5e;
             }
         }
-        li a{color:$footer;}
+        li a{
+            color:$footer;
+            padding:5px;
+            margin:5px 10px 5px 5px;
+            &:hover{
+                color: #757575;
+            }
+        }
     }
     .facebook-icon{
         font-size:4rem;
@@ -291,21 +300,25 @@ a {
         padding:2% 5% 2% 5%;
     }
 }
-
+@media screen and (max-width:753px){
+    .footer-custom{
+        text-align:center;
+    }
+}
 
 .ribbon-top {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 13px;
+    height: 12px;
     width:100%;
     z-index: 5;
-    background: linear-gradient(90deg, #a85e6c 0%, #a85e6c 12.5%, #e37f52 12.5%, #e37f52 25%, #ef9f48 25%, #ef9f48 37.5%, #9cb641 37.5%, #9cb641 50%, #009484 50%, #009484 62.5%, #21acb8 62.5%, #21acb8 75%, #1972dd 75%, #1972dd 87.5%, #8fa0ae 87.5%, #8fa0ae 100%);
-    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #a85e6c), color-stop(12.5%, #a85e6c), color-stop(12.5%, #e37f52), color-stop(25%, #e37f52), color-stop(25%, #ef9f48), color-stop(37.5%, #ef9f48), color-stop(37.5%, #9cb641), color-stop(50%, #9cb641), color-stop(50%, #009484), color-stop(62.5%, #009484), color-stop(62.5%, #21acb8), color-stop(75%, #21acb8), color-stop(75%, #1972dd), color-stop(87.5%, #1972dd), color-stop(87.5%, #8fa0ae), color-stop(100%, #8fa0ae));
-    background-image: -webkit-linear-gradient(left, #a85e6c 0%, #a85e6c 12.5%, #e37f52 12.5%, #e37f52 25%, #ef9f48 25%, #ef9f48 37.5%, #9cb641 37.5%, #9cb641 50%, #009484 50%, #009484 62.5%, #21acb8 62.5%, #21acb8 75%, #1972dd 75%, #1972dd 87.5%, #8fa0ae 87.5%, #8fa0ae 100%);
-    background-image: -moz-linear-gradient(left, #a85e6c 0%, #a85e6c 12.5%, #e37f52 12.5%, #e37f52 25%, #ef9f48 25%, #ef9f48 37.5%, #9cb641 37.5%, #9cb641 50%, #009484 50%, #009484 62.5%, #21acb8 62.5%, #21acb8 75%, #1972dd 75%, #1972dd 87.5%, #8fa0ae 87.5%, #8fa0ae 100%);
-    background-image: -o-linear-gradient(left, #a85e6c 0%, #a85e6c 12.5%, #e37f52 12.5%, #e37f52 25%, #ef9f48 25%, #ef9f48 37.5%, #9cb641 37.5%, #9cb641 50%, #009484 50%, #009484 62.5%, #21acb8 62.5%, #21acb8 75%, #1972dd 75%, #1972dd 87.5%, #8fa0ae 87.5%, #8fa0ae 100%);
-    background-image: linear-gradient(left, #a85e6c 0%,#a85e6c 12.5%,#e37f52 12.5%,#e37f52 25%,#ef9f48 25%,#ef9f48 37.5%,#9cb641 37.5%,#9cb641 50%,#009484 50%,#009484 62.5%,#21acb8 62.5%,#21acb8 75%,#1972dd 75%,#1972dd 87.5%,#8fa0ae 87.5%,#8fa0ae 100%);
+    background: linear-gradient(90deg, $bottom-color-bar1 0%, $bottom-color-bar1 25%, $bottom-color-bar2 25%, $bottom-color-bar2 50%, $bottom-color-bar3 50%, $bottom-color-bar3 75%, $bottom-color-bar4 75%, $bottom-color-bar4 100%);
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, $bottom-color-bar1), color-stop(25%, $bottom-color-bar1), color-stop(25%, $bottom-color-bar2), color-stop(50%, $bottom-color-bar2), color-stop(50%, $bottom-color-bar3), color-stop(75%, $bottom-color-bar3), color-stop(75%, $bottom-color-bar4), color-stop(100%, $bottom-color-bar4));
+    background-image: -webkit-linear-gradient(left, $bottom-color-bar1 0%, $bottom-color-bar1 25%, $bottom-color-bar2 25%, $bottom-color-bar2 50%, $bottom-color-bar3 50%, $bottom-color-bar3 75%, $bottom-color-bar4 75%, $bottom-color-bar4 100%);
+    background-image: -moz-linear-gradient(left, $bottom-color-bar1 0%, $bottom-color-bar1 25%, $bottom-color-bar2 25%, $bottom-color-bar2 50%, $bottom-color-bar3 50%, $bottom-color-bar3 75%, $bottom-color-bar4 75%, $bottom-color-bar4 100%);
+    background-image: -o-linear-gradient(left, $bottom-color-bar1 0%, $bottom-color-bar1 25%, $bottom-color-bar2 25%, $bottom-color-bar2 50%, $bottom-color-bar3 50%,$bottom-color-bar3 75%, $bottom-color-bar4 75%, $bottom-color-bar4 100%);
+    background-image: linear-gradient(left, $bottom-color-bar1 0%,$bottom-color-bar1 25%, $bottom-color-bar2 25%,$bottom-color-bar2 50%,$bottom-color-bar3 50%,$bottom-color-bar3 75%,$bottom-color-bar4 75%,$bottom-color-bar4 100%);
 }
 
 .btn-1{
