@@ -23,6 +23,24 @@
     background-color: #f3faf5;
     background-color: #fff;
     background-image: none!important;
+    .navbar-toggle {
+        padding: 4px 6px;
+        font-size: 25px;
+        color: #27284e;
+        &:focus,
+        &:active {
+            outline: none;
+        }
+    }
+    span.navbar-brand {
+        a{
+        color:#27284e;
+        font-weight: 600;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
     .nav {
         li {
             a {
