@@ -270,6 +270,8 @@ a {
             list-style-type:none;
             color: $footer;
             font-size:1.45rem;
+            margin:0;
+            padding:0;
         }
         li.footer-header{
             color:#dc4b5e;
@@ -284,7 +286,7 @@ a {
         li a{
             color:$footer;
             padding:5px;
-            margin:5px 10px 5px 5px;
+            margin:5px;
             &:hover{
                 color: #757575;
             }
@@ -303,7 +305,13 @@ a {
 @media screen and (max-width:753px){
     .footer-custom{
         text-align:center;
+        .footer-upper-bar{
+            li.footer-header{
+                margin:0px;
+            }
+        }
     }
+
 }
 
 .ribbon-top {
