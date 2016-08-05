@@ -27,7 +27,6 @@ Rails.application.routes.draw do
   get '/shopping' => 'pages#shopping'
   get '/newtonA' => 'pages#newtonA'
   get '/essentialShopping' =>'pages#essentialShopping'
-  
   #all association in NCTU
   get '/curricular' => 'pages#curricular'
   get '/studentAssociation' => 'pages#studentAssociation'

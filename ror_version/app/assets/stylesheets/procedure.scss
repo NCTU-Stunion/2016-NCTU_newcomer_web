@@ -242,3 +242,13 @@
     right: auto;
   }
 }
+section.timetable{
+  margin-top:120px;
+  .timetable-wrapper{
+    width:100%;
+    p.point{
+      width:16.66%;
+      display:inline;
+    }
+  }
+}
