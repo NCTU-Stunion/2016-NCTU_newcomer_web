@@ -1,8 +1,8 @@
 class PagesController < ApplicationController
   def curricular
     @title = "社團資訊 | 網路新生包"
-    @data = [ { "name" => "國際標準舞社", "pdf" => "國標.pdf", "web" => "none", "fb" => "https://www.facebook.com/groups/1793049137607116/", "img" => "國標.jpg" , "color" => "default"},
-              { "name" => "網絡安全進策會", "pdf" => "網安.pdf", "web" => "https://bamboofox.torchpad.com/", "fb" => "https://www.facebook.com/NCTUCSC", "img" => "網安.jpg" , "color" => "default"},
+    @data = [ { "name" => "國際標準舞社", "pdf" => "國標.pdf", "web" => "none", "fb" => "https://www.facebook.com/NCTUBallroomDance/", "img" => "國標.jpg" , "color" => "default"},
+              { "name" => "網絡安全策進會", "pdf" => "網安.pdf", "web" => "https://bamboofox.torchpad.com/", "fb" => "https://www.facebook.com/NCTUCSC", "img" => "網安.jpg" , "color" => "default"},
               { "name" => "魔術社", "pdf" => "魔術社.pdf", "web" => "none", "fb" => "https://www.facebook.com/nctuMagic/", "img" => "魔術.jpg" , "color" => "default"},
               { "name" => "管弦樂團", "pdf" => "國立交通大學管弦樂團.pdf", "web" => "none", "fb" => "https://www.facebook.com/%E4%BA%A4%E5%A4%A7%E7%AE%A1%E5%BC%A6%E6%A8%82%E7%A4%BE-190643944351797/?fref=ts", "img" => "管弦樂.jpg" , "color" => "default"},
               { "name" => "汪汪社", "pdf" => "none", "web" => "none", "fb" => "https://www.facebook.com/%E4%BA%A4%E5%A4%A7%E6%B1%AA%E6%B1%AA%E7%A4%BE-486262641434965/?fref=ts", "img" => "汪汪.jpg", "color" => "white" },
@@ -54,7 +54,7 @@ class PagesController < ApplicationController
   def studentAssociation
     @title = "系學會 | 網路新生包"
     @data = [ { "name" => "電機資訊學士班", "pdf" => "none", "web" => "none", "fb" => "https://www.facebook.com/nctu.eecs", "img" => "none" },
-              { "name" => "奈米科學及工程學士學位學程", "pdf" => "奈米系學會.pdf", "web" => "none", "fb" => "http://nanostu.weebly.com/", "img" => "none" },
+              { "name" => "奈米科學及工程學士學位學程", "pdf" => "奈米系學會.pdf", "web" => "http://nanostu.weebly.com/", "fb" => "none", "img" => "none" },
               { "name" => "電子工程學系", "pdf" => "none", "web" => "none", "fb" => "none", "img" => "none" },
               { "name" => "電機工程學系", "pdf" => "none", "web" => "none", "fb" => "https://www.facebook.com/pages/%E7%AC%AC%E5%9B%9B%E5%B1%86-%E4%BA%A4%E5%A4%A7%E9%9B%BB%E6%A9%9F%E7%B3%BB%E7%B3%BB%E5%AD%B8%E6%9C%83/1427829697481421", "img" => "none" },
               { "name" => "光電工程學系", "pdf" => "none", "web" => "none", "fb" => "https://www.facebook.com/pages/%E4%BA%A4%E5%A4%A7%E5%85%89%E9%9B%BBNCTU_EO/201908786557647", "img" => "none" },
@@ -65,10 +65,10 @@ class PagesController < ApplicationController
               { "name" => "電子物理學系", "pdf" => "none", "web" => "none", "fb" => "https://www.facebook.com/NCTU.epstudentorganization", "img" => "none" },
               { "name" => "應用化學系", "pdf" => "none", "web" => "none", "fb" => "none", "img" => "none" },
               { "name" => "應用數學系", "pdf" => "none", "web" => "none", "fb" => "https://www.facebook.com/nctuamsa04" , "img" => "none"},
-              { "name" => "生物科技學系", "pdf" => "none", "web" => "none", "fb" => "https://www.facebook.com/NCTUDBTassociation" , "img" => "none", "109" => "https://www.facebook.com/groups/1546915355611613/?notif_t=group_added_to_group&notif_id=1468848653896584"},
+              { "name" => "生物科技學系", "pdf" => "none", "web" => "none", "fb" => "https://www.facebook.com/nctudbtsu/" , "img" => "none", "109" => "https://www.facebook.com/groups/1546915355611613/?notif_t=group_added_to_group&notif_id=1468848653896584"},
               { "name" => "資訊管理與財務金融學系", "pdf" => "資訊管理與財務金融學系-系學會新生通知.pdf", "web" => "none", "fb" => "https://www.facebook.com/NCTUIMF", "img" => "none" },
               { "name" => "管理科學系", "pdf" => "none", "web" => "https://sites.google.com/a/ms.nctu.edu.tw/msstudent/home", "fb" => "https://www.facebook.com/NCTU.MS", "img" => "none" },
-              { "name" => "運輸與物流管理學系", "pdf" => "none", "web" => "none", "fb" => "https://www.facebook.com/NCTUTTM" , "img" => "none"},
+              { "name" => "運輸與物流管理學系", "pdf" => "none", "web" => "none", "fb" => "https://www.facebook.com/NCTUTLM" , "img" => "none"},
               { "name" => "工業工程與管理學系", "pdf" => "工業工程與管理學系-系學會新生通知.pdf", "web" => "none", "fb" => "https://www.facebook.com/IEMhome" , "img" => "工業工程與管理學系.jpg" ,"color"=>"grey"},
               { "name" => "外國語文學系", "pdf" => "none", "web" => "none", "fb" => "https://www.facebook.com/NCTUFL", "img" => "none" },
               { "name" => "傳播與科技學系", "pdf" => "none", "web" => "none", "fb" => "https://www.facebook.com/CT.Associa", "img" => "none" },
