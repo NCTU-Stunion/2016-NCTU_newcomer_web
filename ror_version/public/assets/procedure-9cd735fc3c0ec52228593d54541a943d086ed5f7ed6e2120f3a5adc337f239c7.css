@@ -1,0 +1,296 @@
+/* line 1, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+#timeline {
+  text-align: center;
+  padding-top: 170px;
+}
+
+/* line 5, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.body {
+  height: 100%;
+}
+
+/* line 8, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.parallax-window {
+  margin-top: -90px;
+}
+
+@media (min-width: 768px) {
+  /* line 13, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+  .container-timeline {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 19, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+  .container-timeline {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 25, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+  .container-timeline {
+    width: 1170px;
+  }
+}
+/* line 29, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.container-timeline {
+  height: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #325272;
+}
+
+/* line 38, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+}
+
+/* line 44, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  background-color: #eeeeee;
+  left: 50%;
+  margin-left: -1.5px;
+}
+
+/* line 55, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.timeline > li {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* line 60, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+
+/* line 66, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.timeline > li:after {
+  clear: both;
+}
+
+/* line 70, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+
+/* line 76, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.timeline > li:after {
+  clear: both;
+}
+
+/* line 80, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.timeline > li > .timeline-panel {
+  width: 46%;
+  float: left;
+  background-color: #fbfbfb;
+  border: 1px solid #d4d4d4;
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+
+/* line 92, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.timeline > li > .timeline-panel:before {
+  position: absolute;
+  top: 26px;
+  right: -15px;
+  display: inline-block;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #ccc;
+  border-right: 0 solid #ccc;
+  border-bottom: 15px solid transparent;
+  content: " ";
+}
+
+/* line 104, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.timeline > li > .timeline-panel:after {
+  position: absolute;
+  top: 27px;
+  right: -14px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+
+/* line 116, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.timeline > li > .timeline-badge {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  margin-left: -25px;
+  background-color: #999999;
+  z-index: 100;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+/* line 135, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+}
+
+/* line 139, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+
+/* line 146, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+
+/* line 153, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.timeline-badge.primary {
+  background-color: #2e6da4 !important;
+}
+
+/* line 157, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.timeline-badge.success {
+  background-color: #3f903f !important;
+}
+
+/* line 161, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.timeline-badge.warning {
+  background-color: #f0ad4e !important;
+}
+
+/* line 165, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.timeline-badge.danger {
+  background-color: #d9534f !important;
+}
+
+/* line 169, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.timeline-badge.info {
+  background-color: #5bc0de !important;
+}
+
+/* line 173, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.timeline-title {
+  margin-top: 0;
+  color: inherit;
+}
+
+/* line 178, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.timeline-body > p,
+.timeline-body > ul {
+  margin-bottom: 0;
+}
+
+/* line 183, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+.timeline-body > p + p {
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 725px) {
+  /* line 187, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+  .timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    background-color: #eeeeee;
+    left: 7%;
+    margin-left: -1.5px;
+  }
+
+  /* line 197, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+  .timeline > li > .timeline-panel {
+    width: 76%;
+    float: left;
+    background-color: #fbfbfb;
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    padding: 20px;
+    margin-left: 17%;
+    position: relative;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  }
+
+  /* line 209, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+  .timeline > li > .timeline-badge {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 7%;
+    margin-left: -25px;
+    background-color: #999999;
+    z-index: 100;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+
+  /* line 227, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+  .timeline > li#timebox > .timeline-panel {
+    float: left;
+  }
+
+  /* line 231, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+  .timeline > li#timebox > .timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+  }
+
+  /* line 238, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+  .timeline > li#timebox > .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+  }
+}
+/* line 245, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+section.timetable {
+  margin-top: 120px;
+}
+/* line 247, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+section.timetable .timetable-wrapper {
+  width: 100%;
+}
+/* line 249, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/procedure.scss */
+section.timetable .timetable-wrapper p.point {
+  width: 16.66%;
+  display: inline;
+}

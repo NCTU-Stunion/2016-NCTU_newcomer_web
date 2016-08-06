@@ -1,0 +1,4081 @@
+@charset "UTF-8";
+/*!
+ *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("/assets/fontawesome-webfont-50bbe9192697e791e2ee4ef73917aeb1b03e727dff08a1fc8d74f00e4aa812e1.eot");
+  src: url("/assets/fontawesome-webfont-50bbe9192697e791e2ee4ef73917aeb1b03e727dff08a1fc8d74f00e4aa812e1.eot?#iefix") format("embedded-opentype"), url("/assets/fontawesome-webfont-7dacf83f51179de8d7980a513e67ab3a08f2c6272bb5946df8fd77c0d1763b73.woff2") format("woff2"), url("/assets/fontawesome-webfont-adbc4f95eb6d7f2738959cf0ecbc374672fce47e856050a8e9791f457623ac2c.woff") format("woff"), url("/assets/fontawesome-webfont-ae19e2e4c04f2b04bf030684c4c1db8faf5c8fe3ee03d1e0c409046608b38912.ttf") format("truetype"), url("/assets/fontawesome-webfont-8e3586389bb4cd01b3f85bb3b622739bde6627f28bba63a020c223ca9cf1b9ae.svg#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 19, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* makes the font 33% larger relative to the icon container */
+/* line 28, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+
+/* line 33, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-2x {
+  font-size: 2em;
+}
+
+/* line 36, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-3x {
+  font-size: 3em;
+}
+
+/* line 39, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-4x {
+  font-size: 4em;
+}
+
+/* line 42, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-5x {
+  font-size: 5em;
+}
+
+/* line 45, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+
+/* line 49, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+
+/* line 54, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ul > li {
+  position: relative;
+}
+
+/* line 57, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+
+/* line 64, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-li.fa-lg {
+  left: -1.85714286em;
+}
+
+/* line 67, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eeeeee;
+  border-radius: .1em;
+}
+
+/* line 72, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pull-left {
+  float: left;
+}
+
+/* line 75, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pull-right {
+  float: right;
+}
+
+/* line 78, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa.fa-pull-left {
+  margin-right: .3em;
+}
+
+/* line 81, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa.fa-pull-right {
+  margin-left: .3em;
+}
+
+/* Deprecated as of 4.4.0 */
+/* line 85, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.pull-right {
+  float: right;
+}
+
+/* line 88, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.pull-left {
+  float: left;
+}
+
+/* line 91, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa.pull-left {
+  margin-right: .3em;
+}
+
+/* line 94, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa.pull-right {
+  margin-left: .3em;
+}
+
+/* line 97, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+
+/* line 101, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+/* line 125, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* line 131, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* line 137, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+/* line 143, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+/* line 149, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+/* line 155, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
+  filter: none;
+}
+
+/* line 162, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+
+/* line 170, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stack-1x,
+.fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 177, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stack-1x {
+  line-height: inherit;
+}
+
+/* line 180, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stack-2x {
+  font-size: 2em;
+}
+
+/* line 183, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-inverse {
+  color: #ffffff;
+}
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+/* line 188, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-glass:before {
+  content: "\f000";
+}
+
+/* line 191, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-music:before {
+  content: "\f001";
+}
+
+/* line 194, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-search:before {
+  content: "\f002";
+}
+
+/* line 197, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-envelope-o:before {
+  content: "\f003";
+}
+
+/* line 200, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-heart:before {
+  content: "\f004";
+}
+
+/* line 203, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-star:before {
+  content: "\f005";
+}
+
+/* line 206, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-star-o:before {
+  content: "\f006";
+}
+
+/* line 209, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-user:before {
+  content: "\f007";
+}
+
+/* line 212, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-film:before {
+  content: "\f008";
+}
+
+/* line 215, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-th-large:before {
+  content: "\f009";
+}
+
+/* line 218, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-th:before {
+  content: "\f00a";
+}
+
+/* line 221, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-th-list:before {
+  content: "\f00b";
+}
+
+/* line 224, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-check:before {
+  content: "\f00c";
+}
+
+/* line 227, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-remove:before,
+.fa-close:before,
+.fa-times:before {
+  content: "\f00d";
+}
+
+/* line 232, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-search-plus:before {
+  content: "\f00e";
+}
+
+/* line 235, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-search-minus:before {
+  content: "\f010";
+}
+
+/* line 238, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-power-off:before {
+  content: "\f011";
+}
+
+/* line 241, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-signal:before {
+  content: "\f012";
+}
+
+/* line 244, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-gear:before,
+.fa-cog:before {
+  content: "\f013";
+}
+
+/* line 248, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-trash-o:before {
+  content: "\f014";
+}
+
+/* line 251, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-home:before {
+  content: "\f015";
+}
+
+/* line 254, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-o:before {
+  content: "\f016";
+}
+
+/* line 257, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-clock-o:before {
+  content: "\f017";
+}
+
+/* line 260, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-road:before {
+  content: "\f018";
+}
+
+/* line 263, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-download:before {
+  content: "\f019";
+}
+
+/* line 266, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-o-down:before {
+  content: "\f01a";
+}
+
+/* line 269, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-o-up:before {
+  content: "\f01b";
+}
+
+/* line 272, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-inbox:before {
+  content: "\f01c";
+}
+
+/* line 275, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-play-circle-o:before {
+  content: "\f01d";
+}
+
+/* line 278, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rotate-right:before,
+.fa-repeat:before {
+  content: "\f01e";
+}
+
+/* line 282, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-refresh:before {
+  content: "\f021";
+}
+
+/* line 285, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-list-alt:before {
+  content: "\f022";
+}
+
+/* line 288, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-lock:before {
+  content: "\f023";
+}
+
+/* line 291, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flag:before {
+  content: "\f024";
+}
+
+/* line 294, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-headphones:before {
+  content: "\f025";
+}
+
+/* line 297, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-volume-off:before {
+  content: "\f026";
+}
+
+/* line 300, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-volume-down:before {
+  content: "\f027";
+}
+
+/* line 303, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-volume-up:before {
+  content: "\f028";
+}
+
+/* line 306, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-qrcode:before {
+  content: "\f029";
+}
+
+/* line 309, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-barcode:before {
+  content: "\f02a";
+}
+
+/* line 312, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tag:before {
+  content: "\f02b";
+}
+
+/* line 315, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tags:before {
+  content: "\f02c";
+}
+
+/* line 318, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-book:before {
+  content: "\f02d";
+}
+
+/* line 321, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bookmark:before {
+  content: "\f02e";
+}
+
+/* line 324, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-print:before {
+  content: "\f02f";
+}
+
+/* line 327, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-camera:before {
+  content: "\f030";
+}
+
+/* line 330, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-font:before {
+  content: "\f031";
+}
+
+/* line 333, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bold:before {
+  content: "\f032";
+}
+
+/* line 336, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-italic:before {
+  content: "\f033";
+}
+
+/* line 339, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-text-height:before {
+  content: "\f034";
+}
+
+/* line 342, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-text-width:before {
+  content: "\f035";
+}
+
+/* line 345, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-align-left:before {
+  content: "\f036";
+}
+
+/* line 348, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-align-center:before {
+  content: "\f037";
+}
+
+/* line 351, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-align-right:before {
+  content: "\f038";
+}
+
+/* line 354, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-align-justify:before {
+  content: "\f039";
+}
+
+/* line 357, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-list:before {
+  content: "\f03a";
+}
+
+/* line 360, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-dedent:before,
+.fa-outdent:before {
+  content: "\f03b";
+}
+
+/* line 364, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-indent:before {
+  content: "\f03c";
+}
+
+/* line 367, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-video-camera:before {
+  content: "\f03d";
+}
+
+/* line 370, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-photo:before,
+.fa-image:before,
+.fa-picture-o:before {
+  content: "\f03e";
+}
+
+/* line 375, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pencil:before {
+  content: "\f040";
+}
+
+/* line 378, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-map-marker:before {
+  content: "\f041";
+}
+
+/* line 381, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-adjust:before {
+  content: "\f042";
+}
+
+/* line 384, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tint:before {
+  content: "\f043";
+}
+
+/* line 387, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-edit:before,
+.fa-pencil-square-o:before {
+  content: "\f044";
+}
+
+/* line 391, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-share-square-o:before {
+  content: "\f045";
+}
+
+/* line 394, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-check-square-o:before {
+  content: "\f046";
+}
+
+/* line 397, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrows:before {
+  content: "\f047";
+}
+
+/* line 400, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-step-backward:before {
+  content: "\f048";
+}
+
+/* line 403, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fast-backward:before {
+  content: "\f049";
+}
+
+/* line 406, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-backward:before {
+  content: "\f04a";
+}
+
+/* line 409, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-play:before {
+  content: "\f04b";
+}
+
+/* line 412, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pause:before {
+  content: "\f04c";
+}
+
+/* line 415, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stop:before {
+  content: "\f04d";
+}
+
+/* line 418, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-forward:before {
+  content: "\f04e";
+}
+
+/* line 421, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fast-forward:before {
+  content: "\f050";
+}
+
+/* line 424, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-step-forward:before {
+  content: "\f051";
+}
+
+/* line 427, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-eject:before {
+  content: "\f052";
+}
+
+/* line 430, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-left:before {
+  content: "\f053";
+}
+
+/* line 433, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-right:before {
+  content: "\f054";
+}
+
+/* line 436, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-plus-circle:before {
+  content: "\f055";
+}
+
+/* line 439, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-minus-circle:before {
+  content: "\f056";
+}
+
+/* line 442, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-times-circle:before {
+  content: "\f057";
+}
+
+/* line 445, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-check-circle:before {
+  content: "\f058";
+}
+
+/* line 448, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-question-circle:before {
+  content: "\f059";
+}
+
+/* line 451, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-info-circle:before {
+  content: "\f05a";
+}
+
+/* line 454, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-crosshairs:before {
+  content: "\f05b";
+}
+
+/* line 457, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-times-circle-o:before {
+  content: "\f05c";
+}
+
+/* line 460, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-check-circle-o:before {
+  content: "\f05d";
+}
+
+/* line 463, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ban:before {
+  content: "\f05e";
+}
+
+/* line 466, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-left:before {
+  content: "\f060";
+}
+
+/* line 469, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-right:before {
+  content: "\f061";
+}
+
+/* line 472, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-up:before {
+  content: "\f062";
+}
+
+/* line 475, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-down:before {
+  content: "\f063";
+}
+
+/* line 478, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mail-forward:before,
+.fa-share:before {
+  content: "\f064";
+}
+
+/* line 482, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-expand:before {
+  content: "\f065";
+}
+
+/* line 485, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-compress:before {
+  content: "\f066";
+}
+
+/* line 488, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-plus:before {
+  content: "\f067";
+}
+
+/* line 491, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-minus:before {
+  content: "\f068";
+}
+
+/* line 494, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-asterisk:before {
+  content: "\f069";
+}
+
+/* line 497, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-exclamation-circle:before {
+  content: "\f06a";
+}
+
+/* line 500, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-gift:before {
+  content: "\f06b";
+}
+
+/* line 503, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-leaf:before {
+  content: "\f06c";
+}
+
+/* line 506, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fire:before {
+  content: "\f06d";
+}
+
+/* line 509, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-eye:before {
+  content: "\f06e";
+}
+
+/* line 512, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-eye-slash:before {
+  content: "\f070";
+}
+
+/* line 515, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-warning:before,
+.fa-exclamation-triangle:before {
+  content: "\f071";
+}
+
+/* line 519, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-plane:before {
+  content: "\f072";
+}
+
+/* line 522, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-calendar:before {
+  content: "\f073";
+}
+
+/* line 525, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-random:before {
+  content: "\f074";
+}
+
+/* line 528, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-comment:before {
+  content: "\f075";
+}
+
+/* line 531, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-magnet:before {
+  content: "\f076";
+}
+
+/* line 534, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-up:before {
+  content: "\f077";
+}
+
+/* line 537, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-down:before {
+  content: "\f078";
+}
+
+/* line 540, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-retweet:before {
+  content: "\f079";
+}
+
+/* line 543, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-shopping-cart:before {
+  content: "\f07a";
+}
+
+/* line 546, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-folder:before {
+  content: "\f07b";
+}
+
+/* line 549, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-folder-open:before {
+  content: "\f07c";
+}
+
+/* line 552, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrows-v:before {
+  content: "\f07d";
+}
+
+/* line 555, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrows-h:before {
+  content: "\f07e";
+}
+
+/* line 558, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bar-chart-o:before,
+.fa-bar-chart:before {
+  content: "\f080";
+}
+
+/* line 562, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-twitter-square:before {
+  content: "\f081";
+}
+
+/* line 565, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-facebook-square:before {
+  content: "\f082";
+}
+
+/* line 568, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-camera-retro:before {
+  content: "\f083";
+}
+
+/* line 571, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-key:before {
+  content: "\f084";
+}
+
+/* line 574, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-gears:before,
+.fa-cogs:before {
+  content: "\f085";
+}
+
+/* line 578, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-comments:before {
+  content: "\f086";
+}
+
+/* line 581, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-thumbs-o-up:before {
+  content: "\f087";
+}
+
+/* line 584, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-thumbs-o-down:before {
+  content: "\f088";
+}
+
+/* line 587, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-star-half:before {
+  content: "\f089";
+}
+
+/* line 590, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-heart-o:before {
+  content: "\f08a";
+}
+
+/* line 593, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sign-out:before {
+  content: "\f08b";
+}
+
+/* line 596, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-linkedin-square:before {
+  content: "\f08c";
+}
+
+/* line 599, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-thumb-tack:before {
+  content: "\f08d";
+}
+
+/* line 602, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-external-link:before {
+  content: "\f08e";
+}
+
+/* line 605, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sign-in:before {
+  content: "\f090";
+}
+
+/* line 608, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-trophy:before {
+  content: "\f091";
+}
+
+/* line 611, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-github-square:before {
+  content: "\f092";
+}
+
+/* line 614, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-upload:before {
+  content: "\f093";
+}
+
+/* line 617, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-lemon-o:before {
+  content: "\f094";
+}
+
+/* line 620, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-phone:before {
+  content: "\f095";
+}
+
+/* line 623, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-square-o:before {
+  content: "\f096";
+}
+
+/* line 626, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bookmark-o:before {
+  content: "\f097";
+}
+
+/* line 629, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-phone-square:before {
+  content: "\f098";
+}
+
+/* line 632, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-twitter:before {
+  content: "\f099";
+}
+
+/* line 635, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-facebook-f:before,
+.fa-facebook:before {
+  content: "\f09a";
+}
+
+/* line 639, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-github:before {
+  content: "\f09b";
+}
+
+/* line 642, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-unlock:before {
+  content: "\f09c";
+}
+
+/* line 645, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-credit-card:before {
+  content: "\f09d";
+}
+
+/* line 648, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-feed:before,
+.fa-rss:before {
+  content: "\f09e";
+}
+
+/* line 652, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hdd-o:before {
+  content: "\f0a0";
+}
+
+/* line 655, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bullhorn:before {
+  content: "\f0a1";
+}
+
+/* line 658, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bell:before {
+  content: "\f0f3";
+}
+
+/* line 661, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-certificate:before {
+  content: "\f0a3";
+}
+
+/* line 664, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-o-right:before {
+  content: "\f0a4";
+}
+
+/* line 667, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-o-left:before {
+  content: "\f0a5";
+}
+
+/* line 670, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-o-up:before {
+  content: "\f0a6";
+}
+
+/* line 673, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-o-down:before {
+  content: "\f0a7";
+}
+
+/* line 676, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-left:before {
+  content: "\f0a8";
+}
+
+/* line 679, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-right:before {
+  content: "\f0a9";
+}
+
+/* line 682, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-up:before {
+  content: "\f0aa";
+}
+
+/* line 685, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-down:before {
+  content: "\f0ab";
+}
+
+/* line 688, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-globe:before {
+  content: "\f0ac";
+}
+
+/* line 691, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-wrench:before {
+  content: "\f0ad";
+}
+
+/* line 694, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tasks:before {
+  content: "\f0ae";
+}
+
+/* line 697, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-filter:before {
+  content: "\f0b0";
+}
+
+/* line 700, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-briefcase:before {
+  content: "\f0b1";
+}
+
+/* line 703, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrows-alt:before {
+  content: "\f0b2";
+}
+
+/* line 706, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-group:before,
+.fa-users:before {
+  content: "\f0c0";
+}
+
+/* line 710, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chain:before,
+.fa-link:before {
+  content: "\f0c1";
+}
+
+/* line 714, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cloud:before {
+  content: "\f0c2";
+}
+
+/* line 717, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flask:before {
+  content: "\f0c3";
+}
+
+/* line 720, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cut:before,
+.fa-scissors:before {
+  content: "\f0c4";
+}
+
+/* line 724, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-copy:before,
+.fa-files-o:before {
+  content: "\f0c5";
+}
+
+/* line 728, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-paperclip:before {
+  content: "\f0c6";
+}
+
+/* line 731, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-save:before,
+.fa-floppy-o:before {
+  content: "\f0c7";
+}
+
+/* line 735, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-square:before {
+  content: "\f0c8";
+}
+
+/* line 738, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before {
+  content: "\f0c9";
+}
+
+/* line 743, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-list-ul:before {
+  content: "\f0ca";
+}
+
+/* line 746, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-list-ol:before {
+  content: "\f0cb";
+}
+
+/* line 749, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-strikethrough:before {
+  content: "\f0cc";
+}
+
+/* line 752, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-underline:before {
+  content: "\f0cd";
+}
+
+/* line 755, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-table:before {
+  content: "\f0ce";
+}
+
+/* line 758, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-magic:before {
+  content: "\f0d0";
+}
+
+/* line 761, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-truck:before {
+  content: "\f0d1";
+}
+
+/* line 764, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pinterest:before {
+  content: "\f0d2";
+}
+
+/* line 767, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pinterest-square:before {
+  content: "\f0d3";
+}
+
+/* line 770, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-google-plus-square:before {
+  content: "\f0d4";
+}
+
+/* line 773, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-google-plus:before {
+  content: "\f0d5";
+}
+
+/* line 776, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-money:before {
+  content: "\f0d6";
+}
+
+/* line 779, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-caret-down:before {
+  content: "\f0d7";
+}
+
+/* line 782, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-caret-up:before {
+  content: "\f0d8";
+}
+
+/* line 785, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-caret-left:before {
+  content: "\f0d9";
+}
+
+/* line 788, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-caret-right:before {
+  content: "\f0da";
+}
+
+/* line 791, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-columns:before {
+  content: "\f0db";
+}
+
+/* line 794, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-unsorted:before,
+.fa-sort:before {
+  content: "\f0dc";
+}
+
+/* line 798, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-down:before,
+.fa-sort-desc:before {
+  content: "\f0dd";
+}
+
+/* line 802, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-up:before,
+.fa-sort-asc:before {
+  content: "\f0de";
+}
+
+/* line 806, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-envelope:before {
+  content: "\f0e0";
+}
+
+/* line 809, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+
+/* line 812, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rotate-left:before,
+.fa-undo:before {
+  content: "\f0e2";
+}
+
+/* line 816, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-legal:before,
+.fa-gavel:before {
+  content: "\f0e3";
+}
+
+/* line 820, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-dashboard:before,
+.fa-tachometer:before {
+  content: "\f0e4";
+}
+
+/* line 824, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-comment-o:before {
+  content: "\f0e5";
+}
+
+/* line 827, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-comments-o:before {
+  content: "\f0e6";
+}
+
+/* line 830, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flash:before,
+.fa-bolt:before {
+  content: "\f0e7";
+}
+
+/* line 834, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sitemap:before {
+  content: "\f0e8";
+}
+
+/* line 837, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-umbrella:before {
+  content: "\f0e9";
+}
+
+/* line 840, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-paste:before,
+.fa-clipboard:before {
+  content: "\f0ea";
+}
+
+/* line 844, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-lightbulb-o:before {
+  content: "\f0eb";
+}
+
+/* line 847, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-exchange:before {
+  content: "\f0ec";
+}
+
+/* line 850, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cloud-download:before {
+  content: "\f0ed";
+}
+
+/* line 853, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cloud-upload:before {
+  content: "\f0ee";
+}
+
+/* line 856, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-user-md:before {
+  content: "\f0f0";
+}
+
+/* line 859, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stethoscope:before {
+  content: "\f0f1";
+}
+
+/* line 862, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-suitcase:before {
+  content: "\f0f2";
+}
+
+/* line 865, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bell-o:before {
+  content: "\f0a2";
+}
+
+/* line 868, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-coffee:before {
+  content: "\f0f4";
+}
+
+/* line 871, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cutlery:before {
+  content: "\f0f5";
+}
+
+/* line 874, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-text-o:before {
+  content: "\f0f6";
+}
+
+/* line 877, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-building-o:before {
+  content: "\f0f7";
+}
+
+/* line 880, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hospital-o:before {
+  content: "\f0f8";
+}
+
+/* line 883, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ambulance:before {
+  content: "\f0f9";
+}
+
+/* line 886, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-medkit:before {
+  content: "\f0fa";
+}
+
+/* line 889, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fighter-jet:before {
+  content: "\f0fb";
+}
+
+/* line 892, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-beer:before {
+  content: "\f0fc";
+}
+
+/* line 895, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-h-square:before {
+  content: "\f0fd";
+}
+
+/* line 898, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-plus-square:before {
+  content: "\f0fe";
+}
+
+/* line 901, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-double-left:before {
+  content: "\f100";
+}
+
+/* line 904, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-double-right:before {
+  content: "\f101";
+}
+
+/* line 907, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-double-up:before {
+  content: "\f102";
+}
+
+/* line 910, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-double-down:before {
+  content: "\f103";
+}
+
+/* line 913, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-left:before {
+  content: "\f104";
+}
+
+/* line 916, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-right:before {
+  content: "\f105";
+}
+
+/* line 919, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-up:before {
+  content: "\f106";
+}
+
+/* line 922, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-down:before {
+  content: "\f107";
+}
+
+/* line 925, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-desktop:before {
+  content: "\f108";
+}
+
+/* line 928, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-laptop:before {
+  content: "\f109";
+}
+
+/* line 931, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tablet:before {
+  content: "\f10a";
+}
+
+/* line 934, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mobile-phone:before,
+.fa-mobile:before {
+  content: "\f10b";
+}
+
+/* line 938, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-circle-o:before {
+  content: "\f10c";
+}
+
+/* line 941, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-quote-left:before {
+  content: "\f10d";
+}
+
+/* line 944, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-quote-right:before {
+  content: "\f10e";
+}
+
+/* line 947, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-spinner:before {
+  content: "\f110";
+}
+
+/* line 950, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-circle:before {
+  content: "\f111";
+}
+
+/* line 953, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mail-reply:before,
+.fa-reply:before {
+  content: "\f112";
+}
+
+/* line 957, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-github-alt:before {
+  content: "\f113";
+}
+
+/* line 960, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-folder-o:before {
+  content: "\f114";
+}
+
+/* line 963, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-folder-open-o:before {
+  content: "\f115";
+}
+
+/* line 966, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-smile-o:before {
+  content: "\f118";
+}
+
+/* line 969, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-frown-o:before {
+  content: "\f119";
+}
+
+/* line 972, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-meh-o:before {
+  content: "\f11a";
+}
+
+/* line 975, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-gamepad:before {
+  content: "\f11b";
+}
+
+/* line 978, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-keyboard-o:before {
+  content: "\f11c";
+}
+
+/* line 981, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flag-o:before {
+  content: "\f11d";
+}
+
+/* line 984, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flag-checkered:before {
+  content: "\f11e";
+}
+
+/* line 987, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-terminal:before {
+  content: "\f120";
+}
+
+/* line 990, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-code:before {
+  content: "\f121";
+}
+
+/* line 993, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mail-reply-all:before,
+.fa-reply-all:before {
+  content: "\f122";
+}
+
+/* line 997, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-star-half-empty:before,
+.fa-star-half-full:before,
+.fa-star-half-o:before {
+  content: "\f123";
+}
+
+/* line 1002, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-location-arrow:before {
+  content: "\f124";
+}
+
+/* line 1005, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-crop:before {
+  content: "\f125";
+}
+
+/* line 1008, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-code-fork:before {
+  content: "\f126";
+}
+
+/* line 1011, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-unlink:before,
+.fa-chain-broken:before {
+  content: "\f127";
+}
+
+/* line 1015, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-question:before {
+  content: "\f128";
+}
+
+/* line 1018, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-info:before {
+  content: "\f129";
+}
+
+/* line 1021, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-exclamation:before {
+  content: "\f12a";
+}
+
+/* line 1024, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-superscript:before {
+  content: "\f12b";
+}
+
+/* line 1027, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-subscript:before {
+  content: "\f12c";
+}
+
+/* line 1030, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-eraser:before {
+  content: "\f12d";
+}
+
+/* line 1033, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-puzzle-piece:before {
+  content: "\f12e";
+}
+
+/* line 1036, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-microphone:before {
+  content: "\f130";
+}
+
+/* line 1039, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-microphone-slash:before {
+  content: "\f131";
+}
+
+/* line 1042, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-shield:before {
+  content: "\f132";
+}
+
+/* line 1045, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-calendar-o:before {
+  content: "\f133";
+}
+
+/* line 1048, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fire-extinguisher:before {
+  content: "\f134";
+}
+
+/* line 1051, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rocket:before {
+  content: "\f135";
+}
+
+/* line 1054, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-maxcdn:before {
+  content: "\f136";
+}
+
+/* line 1057, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-circle-left:before {
+  content: "\f137";
+}
+
+/* line 1060, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-circle-right:before {
+  content: "\f138";
+}
+
+/* line 1063, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-circle-up:before {
+  content: "\f139";
+}
+
+/* line 1066, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-circle-down:before {
+  content: "\f13a";
+}
+
+/* line 1069, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-html5:before {
+  content: "\f13b";
+}
+
+/* line 1072, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-css3:before {
+  content: "\f13c";
+}
+
+/* line 1075, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-anchor:before {
+  content: "\f13d";
+}
+
+/* line 1078, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-unlock-alt:before {
+  content: "\f13e";
+}
+
+/* line 1081, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bullseye:before {
+  content: "\f140";
+}
+
+/* line 1084, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ellipsis-h:before {
+  content: "\f141";
+}
+
+/* line 1087, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ellipsis-v:before {
+  content: "\f142";
+}
+
+/* line 1090, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rss-square:before {
+  content: "\f143";
+}
+
+/* line 1093, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-play-circle:before {
+  content: "\f144";
+}
+
+/* line 1096, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ticket:before {
+  content: "\f145";
+}
+
+/* line 1099, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-minus-square:before {
+  content: "\f146";
+}
+
+/* line 1102, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-minus-square-o:before {
+  content: "\f147";
+}
+
+/* line 1105, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-level-up:before {
+  content: "\f148";
+}
+
+/* line 1108, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-level-down:before {
+  content: "\f149";
+}
+
+/* line 1111, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-check-square:before {
+  content: "\f14a";
+}
+
+/* line 1114, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pencil-square:before {
+  content: "\f14b";
+}
+
+/* line 1117, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-external-link-square:before {
+  content: "\f14c";
+}
+
+/* line 1120, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-share-square:before {
+  content: "\f14d";
+}
+
+/* line 1123, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-compass:before {
+  content: "\f14e";
+}
+
+/* line 1126, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-toggle-down:before,
+.fa-caret-square-o-down:before {
+  content: "\f150";
+}
+
+/* line 1130, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-toggle-up:before,
+.fa-caret-square-o-up:before {
+  content: "\f151";
+}
+
+/* line 1134, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-toggle-right:before,
+.fa-caret-square-o-right:before {
+  content: "\f152";
+}
+
+/* line 1138, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-euro:before,
+.fa-eur:before {
+  content: "\f153";
+}
+
+/* line 1142, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-gbp:before {
+  content: "\f154";
+}
+
+/* line 1145, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-dollar:before,
+.fa-usd:before {
+  content: "\f155";
+}
+
+/* line 1149, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rupee:before,
+.fa-inr:before {
+  content: "\f156";
+}
+
+/* line 1153, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cny:before,
+.fa-rmb:before,
+.fa-yen:before,
+.fa-jpy:before {
+  content: "\f157";
+}
+
+/* line 1159, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ruble:before,
+.fa-rouble:before,
+.fa-rub:before {
+  content: "\f158";
+}
+
+/* line 1164, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-won:before,
+.fa-krw:before {
+  content: "\f159";
+}
+
+/* line 1168, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bitcoin:before,
+.fa-btc:before {
+  content: "\f15a";
+}
+
+/* line 1172, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file:before {
+  content: "\f15b";
+}
+
+/* line 1175, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-text:before {
+  content: "\f15c";
+}
+
+/* line 1178, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-alpha-asc:before {
+  content: "\f15d";
+}
+
+/* line 1181, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-alpha-desc:before {
+  content: "\f15e";
+}
+
+/* line 1184, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-amount-asc:before {
+  content: "\f160";
+}
+
+/* line 1187, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-amount-desc:before {
+  content: "\f161";
+}
+
+/* line 1190, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-numeric-asc:before {
+  content: "\f162";
+}
+
+/* line 1193, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-numeric-desc:before {
+  content: "\f163";
+}
+
+/* line 1196, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-thumbs-up:before {
+  content: "\f164";
+}
+
+/* line 1199, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-thumbs-down:before {
+  content: "\f165";
+}
+
+/* line 1202, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-youtube-square:before {
+  content: "\f166";
+}
+
+/* line 1205, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-youtube:before {
+  content: "\f167";
+}
+
+/* line 1208, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-xing:before {
+  content: "\f168";
+}
+
+/* line 1211, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-xing-square:before {
+  content: "\f169";
+}
+
+/* line 1214, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-youtube-play:before {
+  content: "\f16a";
+}
+
+/* line 1217, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-dropbox:before {
+  content: "\f16b";
+}
+
+/* line 1220, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stack-overflow:before {
+  content: "\f16c";
+}
+
+/* line 1223, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-instagram:before {
+  content: "\f16d";
+}
+
+/* line 1226, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flickr:before {
+  content: "\f16e";
+}
+
+/* line 1229, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-adn:before {
+  content: "\f170";
+}
+
+/* line 1232, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bitbucket:before {
+  content: "\f171";
+}
+
+/* line 1235, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bitbucket-square:before {
+  content: "\f172";
+}
+
+/* line 1238, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tumblr:before {
+  content: "\f173";
+}
+
+/* line 1241, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tumblr-square:before {
+  content: "\f174";
+}
+
+/* line 1244, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-long-arrow-down:before {
+  content: "\f175";
+}
+
+/* line 1247, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-long-arrow-up:before {
+  content: "\f176";
+}
+
+/* line 1250, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-long-arrow-left:before {
+  content: "\f177";
+}
+
+/* line 1253, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-long-arrow-right:before {
+  content: "\f178";
+}
+
+/* line 1256, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-apple:before {
+  content: "\f179";
+}
+
+/* line 1259, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-windows:before {
+  content: "\f17a";
+}
+
+/* line 1262, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-android:before {
+  content: "\f17b";
+}
+
+/* line 1265, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-linux:before {
+  content: "\f17c";
+}
+
+/* line 1268, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-dribbble:before {
+  content: "\f17d";
+}
+
+/* line 1271, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-skype:before {
+  content: "\f17e";
+}
+
+/* line 1274, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-foursquare:before {
+  content: "\f180";
+}
+
+/* line 1277, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-trello:before {
+  content: "\f181";
+}
+
+/* line 1280, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-female:before {
+  content: "\f182";
+}
+
+/* line 1283, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-male:before {
+  content: "\f183";
+}
+
+/* line 1286, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-gittip:before,
+.fa-gratipay:before {
+  content: "\f184";
+}
+
+/* line 1290, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sun-o:before {
+  content: "\f185";
+}
+
+/* line 1293, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-moon-o:before {
+  content: "\f186";
+}
+
+/* line 1296, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-archive:before {
+  content: "\f187";
+}
+
+/* line 1299, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bug:before {
+  content: "\f188";
+}
+
+/* line 1302, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-vk:before {
+  content: "\f189";
+}
+
+/* line 1305, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-weibo:before {
+  content: "\f18a";
+}
+
+/* line 1308, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-renren:before {
+  content: "\f18b";
+}
+
+/* line 1311, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pagelines:before {
+  content: "\f18c";
+}
+
+/* line 1314, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stack-exchange:before {
+  content: "\f18d";
+}
+
+/* line 1317, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-o-right:before {
+  content: "\f18e";
+}
+
+/* line 1320, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-o-left:before {
+  content: "\f190";
+}
+
+/* line 1323, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-toggle-left:before,
+.fa-caret-square-o-left:before {
+  content: "\f191";
+}
+
+/* line 1327, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-dot-circle-o:before {
+  content: "\f192";
+}
+
+/* line 1330, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-wheelchair:before {
+  content: "\f193";
+}
+
+/* line 1333, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-vimeo-square:before {
+  content: "\f194";
+}
+
+/* line 1336, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-turkish-lira:before,
+.fa-try:before {
+  content: "\f195";
+}
+
+/* line 1340, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-plus-square-o:before {
+  content: "\f196";
+}
+
+/* line 1343, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-space-shuttle:before {
+  content: "\f197";
+}
+
+/* line 1346, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-slack:before {
+  content: "\f198";
+}
+
+/* line 1349, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-envelope-square:before {
+  content: "\f199";
+}
+
+/* line 1352, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-wordpress:before {
+  content: "\f19a";
+}
+
+/* line 1355, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-openid:before {
+  content: "\f19b";
+}
+
+/* line 1358, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-institution:before,
+.fa-bank:before,
+.fa-university:before {
+  content: "\f19c";
+}
+
+/* line 1363, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mortar-board:before,
+.fa-graduation-cap:before {
+  content: "\f19d";
+}
+
+/* line 1367, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-yahoo:before {
+  content: "\f19e";
+}
+
+/* line 1370, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-google:before {
+  content: "\f1a0";
+}
+
+/* line 1373, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-reddit:before {
+  content: "\f1a1";
+}
+
+/* line 1376, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-reddit-square:before {
+  content: "\f1a2";
+}
+
+/* line 1379, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stumbleupon-circle:before {
+  content: "\f1a3";
+}
+
+/* line 1382, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stumbleupon:before {
+  content: "\f1a4";
+}
+
+/* line 1385, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-delicious:before {
+  content: "\f1a5";
+}
+
+/* line 1388, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-digg:before {
+  content: "\f1a6";
+}
+
+/* line 1391, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pied-piper-pp:before {
+  content: "\f1a7";
+}
+
+/* line 1394, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pied-piper-alt:before {
+  content: "\f1a8";
+}
+
+/* line 1397, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-drupal:before {
+  content: "\f1a9";
+}
+
+/* line 1400, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-joomla:before {
+  content: "\f1aa";
+}
+
+/* line 1403, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-language:before {
+  content: "\f1ab";
+}
+
+/* line 1406, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fax:before {
+  content: "\f1ac";
+}
+
+/* line 1409, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-building:before {
+  content: "\f1ad";
+}
+
+/* line 1412, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-child:before {
+  content: "\f1ae";
+}
+
+/* line 1415, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-paw:before {
+  content: "\f1b0";
+}
+
+/* line 1418, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-spoon:before {
+  content: "\f1b1";
+}
+
+/* line 1421, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cube:before {
+  content: "\f1b2";
+}
+
+/* line 1424, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cubes:before {
+  content: "\f1b3";
+}
+
+/* line 1427, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-behance:before {
+  content: "\f1b4";
+}
+
+/* line 1430, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-behance-square:before {
+  content: "\f1b5";
+}
+
+/* line 1433, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-steam:before {
+  content: "\f1b6";
+}
+
+/* line 1436, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-steam-square:before {
+  content: "\f1b7";
+}
+
+/* line 1439, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-recycle:before {
+  content: "\f1b8";
+}
+
+/* line 1442, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-automobile:before,
+.fa-car:before {
+  content: "\f1b9";
+}
+
+/* line 1446, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cab:before,
+.fa-taxi:before {
+  content: "\f1ba";
+}
+
+/* line 1450, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tree:before {
+  content: "\f1bb";
+}
+
+/* line 1453, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-spotify:before {
+  content: "\f1bc";
+}
+
+/* line 1456, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-deviantart:before {
+  content: "\f1bd";
+}
+
+/* line 1459, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-soundcloud:before {
+  content: "\f1be";
+}
+
+/* line 1462, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-database:before {
+  content: "\f1c0";
+}
+
+/* line 1465, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-pdf-o:before {
+  content: "\f1c1";
+}
+
+/* line 1468, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-word-o:before {
+  content: "\f1c2";
+}
+
+/* line 1471, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-excel-o:before {
+  content: "\f1c3";
+}
+
+/* line 1474, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-powerpoint-o:before {
+  content: "\f1c4";
+}
+
+/* line 1477, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-photo-o:before,
+.fa-file-picture-o:before,
+.fa-file-image-o:before {
+  content: "\f1c5";
+}
+
+/* line 1482, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-zip-o:before,
+.fa-file-archive-o:before {
+  content: "\f1c6";
+}
+
+/* line 1486, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-sound-o:before,
+.fa-file-audio-o:before {
+  content: "\f1c7";
+}
+
+/* line 1490, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-movie-o:before,
+.fa-file-video-o:before {
+  content: "\f1c8";
+}
+
+/* line 1494, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-code-o:before {
+  content: "\f1c9";
+}
+
+/* line 1497, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-vine:before {
+  content: "\f1ca";
+}
+
+/* line 1500, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-codepen:before {
+  content: "\f1cb";
+}
+
+/* line 1503, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-jsfiddle:before {
+  content: "\f1cc";
+}
+
+/* line 1506, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-life-bouy:before,
+.fa-life-buoy:before,
+.fa-life-saver:before,
+.fa-support:before,
+.fa-life-ring:before {
+  content: "\f1cd";
+}
+
+/* line 1513, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-circle-o-notch:before {
+  content: "\f1ce";
+}
+
+/* line 1516, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ra:before,
+.fa-resistance:before,
+.fa-rebel:before {
+  content: "\f1d0";
+}
+
+/* line 1521, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ge:before,
+.fa-empire:before {
+  content: "\f1d1";
+}
+
+/* line 1525, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-git-square:before {
+  content: "\f1d2";
+}
+
+/* line 1528, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-git:before {
+  content: "\f1d3";
+}
+
+/* line 1531, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-y-combinator-square:before,
+.fa-yc-square:before,
+.fa-hacker-news:before {
+  content: "\f1d4";
+}
+
+/* line 1536, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tencent-weibo:before {
+  content: "\f1d5";
+}
+
+/* line 1539, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-qq:before {
+  content: "\f1d6";
+}
+
+/* line 1542, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-wechat:before,
+.fa-weixin:before {
+  content: "\f1d7";
+}
+
+/* line 1546, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-send:before,
+.fa-paper-plane:before {
+  content: "\f1d8";
+}
+
+/* line 1550, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-send-o:before,
+.fa-paper-plane-o:before {
+  content: "\f1d9";
+}
+
+/* line 1554, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-history:before {
+  content: "\f1da";
+}
+
+/* line 1557, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-circle-thin:before {
+  content: "\f1db";
+}
+
+/* line 1560, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-header:before {
+  content: "\f1dc";
+}
+
+/* line 1563, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-paragraph:before {
+  content: "\f1dd";
+}
+
+/* line 1566, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sliders:before {
+  content: "\f1de";
+}
+
+/* line 1569, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-share-alt:before {
+  content: "\f1e0";
+}
+
+/* line 1572, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-share-alt-square:before {
+  content: "\f1e1";
+}
+
+/* line 1575, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bomb:before {
+  content: "\f1e2";
+}
+
+/* line 1578, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-soccer-ball-o:before,
+.fa-futbol-o:before {
+  content: "\f1e3";
+}
+
+/* line 1582, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tty:before {
+  content: "\f1e4";
+}
+
+/* line 1585, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-binoculars:before {
+  content: "\f1e5";
+}
+
+/* line 1588, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-plug:before {
+  content: "\f1e6";
+}
+
+/* line 1591, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-slideshare:before {
+  content: "\f1e7";
+}
+
+/* line 1594, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-twitch:before {
+  content: "\f1e8";
+}
+
+/* line 1597, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-yelp:before {
+  content: "\f1e9";
+}
+
+/* line 1600, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-newspaper-o:before {
+  content: "\f1ea";
+}
+
+/* line 1603, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-wifi:before {
+  content: "\f1eb";
+}
+
+/* line 1606, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-calculator:before {
+  content: "\f1ec";
+}
+
+/* line 1609, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-paypal:before {
+  content: "\f1ed";
+}
+
+/* line 1612, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-google-wallet:before {
+  content: "\f1ee";
+}
+
+/* line 1615, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc-visa:before {
+  content: "\f1f0";
+}
+
+/* line 1618, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc-mastercard:before {
+  content: "\f1f1";
+}
+
+/* line 1621, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc-discover:before {
+  content: "\f1f2";
+}
+
+/* line 1624, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc-amex:before {
+  content: "\f1f3";
+}
+
+/* line 1627, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc-paypal:before {
+  content: "\f1f4";
+}
+
+/* line 1630, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc-stripe:before {
+  content: "\f1f5";
+}
+
+/* line 1633, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bell-slash:before {
+  content: "\f1f6";
+}
+
+/* line 1636, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bell-slash-o:before {
+  content: "\f1f7";
+}
+
+/* line 1639, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-trash:before {
+  content: "\f1f8";
+}
+
+/* line 1642, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-copyright:before {
+  content: "\f1f9";
+}
+
+/* line 1645, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-at:before {
+  content: "\f1fa";
+}
+
+/* line 1648, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-eyedropper:before {
+  content: "\f1fb";
+}
+
+/* line 1651, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-paint-brush:before {
+  content: "\f1fc";
+}
+
+/* line 1654, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-birthday-cake:before {
+  content: "\f1fd";
+}
+
+/* line 1657, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-area-chart:before {
+  content: "\f1fe";
+}
+
+/* line 1660, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pie-chart:before {
+  content: "\f200";
+}
+
+/* line 1663, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-line-chart:before {
+  content: "\f201";
+}
+
+/* line 1666, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-lastfm:before {
+  content: "\f202";
+}
+
+/* line 1669, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-lastfm-square:before {
+  content: "\f203";
+}
+
+/* line 1672, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-toggle-off:before {
+  content: "\f204";
+}
+
+/* line 1675, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-toggle-on:before {
+  content: "\f205";
+}
+
+/* line 1678, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bicycle:before {
+  content: "\f206";
+}
+
+/* line 1681, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bus:before {
+  content: "\f207";
+}
+
+/* line 1684, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ioxhost:before {
+  content: "\f208";
+}
+
+/* line 1687, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angellist:before {
+  content: "\f209";
+}
+
+/* line 1690, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc:before {
+  content: "\f20a";
+}
+
+/* line 1693, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-shekel:before,
+.fa-sheqel:before,
+.fa-ils:before {
+  content: "\f20b";
+}
+
+/* line 1698, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-meanpath:before {
+  content: "\f20c";
+}
+
+/* line 1701, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-buysellads:before {
+  content: "\f20d";
+}
+
+/* line 1704, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-connectdevelop:before {
+  content: "\f20e";
+}
+
+/* line 1707, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-dashcube:before {
+  content: "\f210";
+}
+
+/* line 1710, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-forumbee:before {
+  content: "\f211";
+}
+
+/* line 1713, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-leanpub:before {
+  content: "\f212";
+}
+
+/* line 1716, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sellsy:before {
+  content: "\f213";
+}
+
+/* line 1719, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-shirtsinbulk:before {
+  content: "\f214";
+}
+
+/* line 1722, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-simplybuilt:before {
+  content: "\f215";
+}
+
+/* line 1725, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-skyatlas:before {
+  content: "\f216";
+}
+
+/* line 1728, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cart-plus:before {
+  content: "\f217";
+}
+
+/* line 1731, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cart-arrow-down:before {
+  content: "\f218";
+}
+
+/* line 1734, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-diamond:before {
+  content: "\f219";
+}
+
+/* line 1737, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ship:before {
+  content: "\f21a";
+}
+
+/* line 1740, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-user-secret:before {
+  content: "\f21b";
+}
+
+/* line 1743, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-motorcycle:before {
+  content: "\f21c";
+}
+
+/* line 1746, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-street-view:before {
+  content: "\f21d";
+}
+
+/* line 1749, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-heartbeat:before {
+  content: "\f21e";
+}
+
+/* line 1752, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-venus:before {
+  content: "\f221";
+}
+
+/* line 1755, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mars:before {
+  content: "\f222";
+}
+
+/* line 1758, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mercury:before {
+  content: "\f223";
+}
+
+/* line 1761, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-intersex:before,
+.fa-transgender:before {
+  content: "\f224";
+}
+
+/* line 1765, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-transgender-alt:before {
+  content: "\f225";
+}
+
+/* line 1768, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-venus-double:before {
+  content: "\f226";
+}
+
+/* line 1771, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mars-double:before {
+  content: "\f227";
+}
+
+/* line 1774, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-venus-mars:before {
+  content: "\f228";
+}
+
+/* line 1777, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mars-stroke:before {
+  content: "\f229";
+}
+
+/* line 1780, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mars-stroke-v:before {
+  content: "\f22a";
+}
+
+/* line 1783, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mars-stroke-h:before {
+  content: "\f22b";
+}
+
+/* line 1786, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-neuter:before {
+  content: "\f22c";
+}
+
+/* line 1789, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-genderless:before {
+  content: "\f22d";
+}
+
+/* line 1792, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-facebook-official:before {
+  content: "\f230";
+}
+
+/* line 1795, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pinterest-p:before {
+  content: "\f231";
+}
+
+/* line 1798, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-whatsapp:before {
+  content: "\f232";
+}
+
+/* line 1801, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-server:before {
+  content: "\f233";
+}
+
+/* line 1804, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-user-plus:before {
+  content: "\f234";
+}
+
+/* line 1807, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-user-times:before {
+  content: "\f235";
+}
+
+/* line 1810, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hotel:before,
+.fa-bed:before {
+  content: "\f236";
+}
+
+/* line 1814, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-viacoin:before {
+  content: "\f237";
+}
+
+/* line 1817, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-train:before {
+  content: "\f238";
+}
+
+/* line 1820, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-subway:before {
+  content: "\f239";
+}
+
+/* line 1823, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-medium:before {
+  content: "\f23a";
+}
+
+/* line 1826, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-yc:before,
+.fa-y-combinator:before {
+  content: "\f23b";
+}
+
+/* line 1830, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-optin-monster:before {
+  content: "\f23c";
+}
+
+/* line 1833, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-opencart:before {
+  content: "\f23d";
+}
+
+/* line 1836, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-expeditedssl:before {
+  content: "\f23e";
+}
+
+/* line 1839, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-battery-4:before,
+.fa-battery-full:before {
+  content: "\f240";
+}
+
+/* line 1843, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-battery-3:before,
+.fa-battery-three-quarters:before {
+  content: "\f241";
+}
+
+/* line 1847, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-battery-2:before,
+.fa-battery-half:before {
+  content: "\f242";
+}
+
+/* line 1851, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-battery-1:before,
+.fa-battery-quarter:before {
+  content: "\f243";
+}
+
+/* line 1855, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-battery-0:before,
+.fa-battery-empty:before {
+  content: "\f244";
+}
+
+/* line 1859, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mouse-pointer:before {
+  content: "\f245";
+}
+
+/* line 1862, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-i-cursor:before {
+  content: "\f246";
+}
+
+/* line 1865, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-object-group:before {
+  content: "\f247";
+}
+
+/* line 1868, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-object-ungroup:before {
+  content: "\f248";
+}
+
+/* line 1871, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sticky-note:before {
+  content: "\f249";
+}
+
+/* line 1874, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sticky-note-o:before {
+  content: "\f24a";
+}
+
+/* line 1877, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc-jcb:before {
+  content: "\f24b";
+}
+
+/* line 1880, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc-diners-club:before {
+  content: "\f24c";
+}
+
+/* line 1883, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-clone:before {
+  content: "\f24d";
+}
+
+/* line 1886, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-balance-scale:before {
+  content: "\f24e";
+}
+
+/* line 1889, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hourglass-o:before {
+  content: "\f250";
+}
+
+/* line 1892, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hourglass-1:before,
+.fa-hourglass-start:before {
+  content: "\f251";
+}
+
+/* line 1896, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hourglass-2:before,
+.fa-hourglass-half:before {
+  content: "\f252";
+}
+
+/* line 1900, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hourglass-3:before,
+.fa-hourglass-end:before {
+  content: "\f253";
+}
+
+/* line 1904, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hourglass:before {
+  content: "\f254";
+}
+
+/* line 1907, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-grab-o:before,
+.fa-hand-rock-o:before {
+  content: "\f255";
+}
+
+/* line 1911, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-stop-o:before,
+.fa-hand-paper-o:before {
+  content: "\f256";
+}
+
+/* line 1915, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-scissors-o:before {
+  content: "\f257";
+}
+
+/* line 1918, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-lizard-o:before {
+  content: "\f258";
+}
+
+/* line 1921, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-spock-o:before {
+  content: "\f259";
+}
+
+/* line 1924, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-pointer-o:before {
+  content: "\f25a";
+}
+
+/* line 1927, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-peace-o:before {
+  content: "\f25b";
+}
+
+/* line 1930, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-trademark:before {
+  content: "\f25c";
+}
+
+/* line 1933, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-registered:before {
+  content: "\f25d";
+}
+
+/* line 1936, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-creative-commons:before {
+  content: "\f25e";
+}
+
+/* line 1939, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-gg:before {
+  content: "\f260";
+}
+
+/* line 1942, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-gg-circle:before {
+  content: "\f261";
+}
+
+/* line 1945, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tripadvisor:before {
+  content: "\f262";
+}
+
+/* line 1948, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-odnoklassniki:before {
+  content: "\f263";
+}
+
+/* line 1951, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-odnoklassniki-square:before {
+  content: "\f264";
+}
+
+/* line 1954, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-get-pocket:before {
+  content: "\f265";
+}
+
+/* line 1957, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-wikipedia-w:before {
+  content: "\f266";
+}
+
+/* line 1960, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-safari:before {
+  content: "\f267";
+}
+
+/* line 1963, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chrome:before {
+  content: "\f268";
+}
+
+/* line 1966, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-firefox:before {
+  content: "\f269";
+}
+
+/* line 1969, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-opera:before {
+  content: "\f26a";
+}
+
+/* line 1972, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-internet-explorer:before {
+  content: "\f26b";
+}
+
+/* line 1975, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tv:before,
+.fa-television:before {
+  content: "\f26c";
+}
+
+/* line 1979, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-contao:before {
+  content: "\f26d";
+}
+
+/* line 1982, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-500px:before {
+  content: "\f26e";
+}
+
+/* line 1985, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-amazon:before {
+  content: "\f270";
+}
+
+/* line 1988, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-calendar-plus-o:before {
+  content: "\f271";
+}
+
+/* line 1991, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-calendar-minus-o:before {
+  content: "\f272";
+}
+
+/* line 1994, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-calendar-times-o:before {
+  content: "\f273";
+}
+
+/* line 1997, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-calendar-check-o:before {
+  content: "\f274";
+}
+
+/* line 2000, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-industry:before {
+  content: "\f275";
+}
+
+/* line 2003, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-map-pin:before {
+  content: "\f276";
+}
+
+/* line 2006, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-map-signs:before {
+  content: "\f277";
+}
+
+/* line 2009, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-map-o:before {
+  content: "\f278";
+}
+
+/* line 2012, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-map:before {
+  content: "\f279";
+}
+
+/* line 2015, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-commenting:before {
+  content: "\f27a";
+}
+
+/* line 2018, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-commenting-o:before {
+  content: "\f27b";
+}
+
+/* line 2021, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-houzz:before {
+  content: "\f27c";
+}
+
+/* line 2024, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-vimeo:before {
+  content: "\f27d";
+}
+
+/* line 2027, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-black-tie:before {
+  content: "\f27e";
+}
+
+/* line 2030, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fonticons:before {
+  content: "\f280";
+}
+
+/* line 2033, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-reddit-alien:before {
+  content: "\f281";
+}
+
+/* line 2036, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-edge:before {
+  content: "\f282";
+}
+
+/* line 2039, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-credit-card-alt:before {
+  content: "\f283";
+}
+
+/* line 2042, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-codiepie:before {
+  content: "\f284";
+}
+
+/* line 2045, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-modx:before {
+  content: "\f285";
+}
+
+/* line 2048, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fort-awesome:before {
+  content: "\f286";
+}
+
+/* line 2051, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-usb:before {
+  content: "\f287";
+}
+
+/* line 2054, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-product-hunt:before {
+  content: "\f288";
+}
+
+/* line 2057, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mixcloud:before {
+  content: "\f289";
+}
+
+/* line 2060, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-scribd:before {
+  content: "\f28a";
+}
+
+/* line 2063, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pause-circle:before {
+  content: "\f28b";
+}
+
+/* line 2066, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pause-circle-o:before {
+  content: "\f28c";
+}
+
+/* line 2069, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stop-circle:before {
+  content: "\f28d";
+}
+
+/* line 2072, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stop-circle-o:before {
+  content: "\f28e";
+}
+
+/* line 2075, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-shopping-bag:before {
+  content: "\f290";
+}
+
+/* line 2078, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-shopping-basket:before {
+  content: "\f291";
+}
+
+/* line 2081, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hashtag:before {
+  content: "\f292";
+}
+
+/* line 2084, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bluetooth:before {
+  content: "\f293";
+}
+
+/* line 2087, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bluetooth-b:before {
+  content: "\f294";
+}
+
+/* line 2090, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-percent:before {
+  content: "\f295";
+}
+
+/* line 2093, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-gitlab:before {
+  content: "\f296";
+}
+
+/* line 2096, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-wpbeginner:before {
+  content: "\f297";
+}
+
+/* line 2099, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-wpforms:before {
+  content: "\f298";
+}
+
+/* line 2102, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-envira:before {
+  content: "\f299";
+}
+
+/* line 2105, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-universal-access:before {
+  content: "\f29a";
+}
+
+/* line 2108, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-wheelchair-alt:before {
+  content: "\f29b";
+}
+
+/* line 2111, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-question-circle-o:before {
+  content: "\f29c";
+}
+
+/* line 2114, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-blind:before {
+  content: "\f29d";
+}
+
+/* line 2117, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-audio-description:before {
+  content: "\f29e";
+}
+
+/* line 2120, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-volume-control-phone:before {
+  content: "\f2a0";
+}
+
+/* line 2123, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-braille:before {
+  content: "\f2a1";
+}
+
+/* line 2126, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-assistive-listening-systems:before {
+  content: "\f2a2";
+}
+
+/* line 2129, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-asl-interpreting:before,
+.fa-american-sign-language-interpreting:before {
+  content: "\f2a3";
+}
+
+/* line 2133, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-deafness:before,
+.fa-hard-of-hearing:before,
+.fa-deaf:before {
+  content: "\f2a4";
+}
+
+/* line 2138, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-glide:before {
+  content: "\f2a5";
+}
+
+/* line 2141, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-glide-g:before {
+  content: "\f2a6";
+}
+
+/* line 2144, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-signing:before,
+.fa-sign-language:before {
+  content: "\f2a7";
+}
+
+/* line 2148, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-low-vision:before {
+  content: "\f2a8";
+}
+
+/* line 2151, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-viadeo:before {
+  content: "\f2a9";
+}
+
+/* line 2154, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-viadeo-square:before {
+  content: "\f2aa";
+}
+
+/* line 2157, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-snapchat:before {
+  content: "\f2ab";
+}
+
+/* line 2160, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-snapchat-ghost:before {
+  content: "\f2ac";
+}
+
+/* line 2163, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-snapchat-square:before {
+  content: "\f2ad";
+}
+
+/* line 2166, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pied-piper:before {
+  content: "\f2ae";
+}
+
+/* line 2169, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-first-order:before {
+  content: "\f2b0";
+}
+
+/* line 2172, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-yoast:before {
+  content: "\f2b1";
+}
+
+/* line 2175, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-themeisle:before {
+  content: "\f2b2";
+}
+
+/* line 2178, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-google-plus-circle:before,
+.fa-google-plus-official:before {
+  content: "\f2b3";
+}
+
+/* line 2182, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fa:before,
+.fa-font-awesome:before {
+  content: "\f2b4";
+}
+
+/* line 2186, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* line 2196, /Users/bigmaker/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-rails-4.6.3.1/app/assets/stylesheets/font-awesome.css.erb */
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  src: url("NotoSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: '谷歌黑體';
+  src: url("cwTeXHei.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 17, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+body {
+  max-width: 100%;
+  height: 100%;
+  font-family: 'NotoSans';
+  color: white;
+  background-color: #f3faf5;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
+
+/* line 27, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* line 33, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: 'NotoSans';
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* line 46, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+p {
+  margin: 0 0 20px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+@media (min-width: 768px) {
+  /* line 46, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+  p {
+    margin: 0 0 25px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}
+
+/* line 57, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+a {
+  color: #272853;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+/* line 62, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+a:hover, a:focus {
+  text-decoration: none;
+  color: #06070e;
+}
+
+/* line 69, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.light {
+  font-weight: 400;
+}
+
+/* line 73, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.navbar-custom {
+  display: inline-block;
+  float: none;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-family: 'NotoSans';
+  font-size: 1.18em;
+  font-weight: 500;
+  background-color: #f3faf5;
+}
+/* line 83, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.navbar-custom .navbar-toggle {
+  padding: 4px 6px;
+  font-size: 25px;
+  color: #27284e;
+}
+/* line 87, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:active {
+  outline: none;
+}
+/* line 93, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.navbar-custom span.navbar-brand a {
+  color: #27284e;
+  font-weight: 600;
+}
+/* line 97, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.navbar-custom span.navbar-brand:focus {
+  outline: none;
+}
+/* line 103, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.navbar-custom .nav li a {
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
+  color: #27284e;
+}
+/* line 108, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.navbar-custom .nav li a:hover {
+  color: rgba(39, 40, 78, 0.8);
+  outline: none;
+  background-color: rgba(39, 40, 78, 0.1);
+}
+/* line 113, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
+  outline: none;
+  background-color: transparent;
+}
+/* line 119, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.navbar-custom .nav li.active {
+  outline: none;
+}
+/* line 121, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.navbar-custom .nav li.active a {
+  background-color: rgba(39, 40, 78, 0.3);
+}
+/* line 123, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.navbar-custom .nav li.active a:hover {
+  color: white;
+}
+@media (min-width: 768px) {
+  /* line 73, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+  .navbar-custom {
+    padding: 20px 0;
+    border-bottom: none;
+    letter-spacing: 1px;
+    background: transparent;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+  /* line 138, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+    text-align: center;
+    background: #f3faf5;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+
+/* line 147, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#banner {
+  display: table;
+  width: 100%;
+  height: 100%;
+  background: url("background.jpg") no-repeat bottom center scroll;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+/* line 156, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#banner .cover-pic {
+  height: 100%;
+  width: 100%;
+  background: url("cover-pic.svg") no-repeat bottom center scroll;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+/* line 165, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#banner .text-box {
+  padding: 50% 0 0 10%;
+}
+/* line 167, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#banner .text-box h2 {
+  padding: 2.5rem 5rem 2.5rem 5rem;
+  margin: 0 28% 0 5%;
+  background-color: #10608c;
+}
+/* line 173, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#banner .text-box-2 {
+  padding: 5% 0 0 15%;
+}
+/* line 175, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#banner .text-box-2 h2 {
+  padding: 2.5rem 2.5rem 2.5rem 5rem;
+  margin: 0 8% 0 8%;
+  background-color: #10608c;
+}
+
+/* line 182, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#explore {
+  padding: 90px 0px 0px 0px;
+  background: #f2b910;
+}
+/* line 185, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#explore .container {
+  background: #f2b910;
+  text-align: center;
+}
+/* line 188, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#explore .container p {
+  text-align: center;
+}
+/* line 191, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#explore .container h2 {
+  padding: 3% 0 3% 0;
+  text-align: center;
+}
+/* line 196, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#explore .bottom {
+  height: 240px;
+  /*this will work like some padding bottom missing  at section */
+  border-width: 0 0 180px 100vw;
+  border-style: solid;
+  border-color: transparent  transparent #0f345b #f2b910;
+  background: #0f345b;
+}
+
+/* line 204, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#procedure {
+  padding: 90px 0 0 0;
+  background: #0f345b;
+}
+/* line 207, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#procedure .container {
+  background: #0f345b;
+}
+/* line 209, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#procedure .container p {
+  padding-left: -10%;
+  text-align: center;
+}
+/* line 213, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#procedure .container h2 {
+  padding: 3% 0 3% 0;
+  text-align: center;
+}
+/* line 218, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#procedure .bottom {
+  height: 240px;
+  /*this will work like some padding bottom missing  at section */
+  border-width: 0 0 180px 100vw;
+  border-style: solid;
+  border-color: transparent  transparent #5aa8dd #0f345b;
+}
+
+/* line 225, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#shopping {
+  padding: 90px 0 0 0;
+  background: #5aa8dd;
+}
+/* line 228, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#shopping .container {
+  background: #5aa8dd;
+}
+/* line 230, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#shopping .container p {
+  text-align: center;
+}
+/* line 233, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#shopping .container h2 {
+  padding: 5% 0 5% 0;
+  text-align: center;
+}
+/* line 238, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#shopping .bottom {
+  height: 240px;
+  /*this will work like some padding bottom missing  at section */
+  border-width: 0 0 180px 100vw;
+  border-style: solid;
+  border-color: transparent  transparent #c3e8f1 #5aa8dd;
+}
+
+/* line 245, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#qna {
+  height: 30%;
+  padding-top: 5%;
+  padding-bottom: 20%;
+  background: #c3e8f1;
+}
+/* line 250, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#qna .container {
+  background: #c3e8f1;
+}
+/* line 252, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#qna .container p {
+  text-align: center;
+}
+/* line 255, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+#qna .container h2 {
+  text-align: center;
+  color: #22356a;
+}
+
+/* line 261, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.footer-custom {
+  text-align: left;
+  padding: 3% 0 3% 0;
+  font-family: 'NotoSans';
+}
+/* line 265, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.footer-custom .footer-lower-bar {
+  color: #272822;
+}
+/* line 269, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.footer-custom .footer-upper-bar ul {
+  list-style-type: none;
+  color: #272822;
+  font-size: 1.45rem;
+  margin: 0;
+  padding: 0;
+}
+/* line 276, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.footer-custom .footer-upper-bar li.footer-header {
+  color: #dc4b5e;
+  font-weight: 500%;
+  font-size: 2rem;
+  margin: 5px;
+  padding: 5px;
+}
+/* line 282, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.footer-custom .footer-upper-bar li.footer-header a {
+  color: #dc4b5e;
+}
+/* line 286, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.footer-custom .footer-upper-bar li a {
+  color: #272822;
+  padding: 5px;
+  margin: 5px;
+}
+/* line 290, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.footer-custom .footer-upper-bar li a:hover {
+  color: #757575;
+}
+/* line 295, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.footer-custom .facebook-icon {
+  font-size: 4rem;
+  color: #2699d8;
+}
+/* line 299, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.footer-custom .footer-logo {
+  width: 30%;
+  height: 30%;
+  padding: 2% 5% 2% 5%;
+}
+
+@media screen and (max-width: 753px) {
+  /* line 306, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+  .footer-custom {
+    text-align: center;
+  }
+  /* line 309, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+  .footer-custom .footer-upper-bar li.footer-header {
+    margin: 0px;
+  }
+}
+/* line 317, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.ribbon-top {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 12px;
+  width: 100%;
+  z-index: 5;
+  background: linear-gradient(90deg, #F38181 0%, #F38181 25%, #FCE38A 25%, #FCE38A 50%, #95E1D3 50%, #95E1D3 75%, #00b8f3 75%, #00b8f3 100%);
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #F38181), color-stop(25%, #F38181), color-stop(25%, #FCE38A), color-stop(50%, #FCE38A), color-stop(50%, #95E1D3), color-stop(75%, #95E1D3), color-stop(75%, #00b8f3), color-stop(100%, #00b8f3));
+  background-image: -webkit-linear-gradient(left, #F38181 0%, #F38181 25%, #FCE38A 25%, #FCE38A 50%, #95E1D3 50%, #95E1D3 75%, #00b8f3 75%, #00b8f3 100%);
+  background-image: -moz-linear-gradient(left, #F38181 0%, #F38181 25%, #FCE38A 25%, #FCE38A 50%, #95E1D3 50%, #95E1D3 75%, #00b8f3 75%, #00b8f3 100%);
+  background-image: -o-linear-gradient(left, #F38181 0%, #F38181 25%, #FCE38A 25%, #FCE38A 50%, #95E1D3 50%, #95E1D3 75%, #00b8f3 75%, #00b8f3 100%);
+  background-image: linear-gradient(left, #F38181 0%, #F38181 25%, #FCE38A 25%, #FCE38A 50%, #95E1D3 50%, #95E1D3 75%, #00b8f3 75%, #00b8f3 100%);
+}
+
+/* line 332, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.btn-1 {
+  color: #f7f7f7;
+  padding: 12px 17px;
+  margin: 0 auto;
+  font-family: 'OpenSansBold', sans-serif;
+  border: 3px solid #f7f7f7;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+  background-color: transparent;
+  background-image: linear-gradient(45deg, #5bcaff 80%, transparent 51%);
+  background-size: 100px 100px;
+  /* some initial size to get the slanted appearance */
+  background-position: -100px 0px;
+  /* negative positioning to hide it initially */
+  background-repeat: no-repeat;
+  transition: all ease 0.3s;
+}
+/* line 23, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/_mixins.scss */
+.btn-1 a {
+  color: #f7f7f7;
+}
+/* line 26, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/_mixins.scss */
+.btn-1:hover {
+  background-size: 200% 200%;
+  /* 200% because gradient is colored only for 50% */
+  background-position: 0px 0px;
+  /* bring it fully into view */
+  color: #FFF;
+}
+
+/* line 335, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.btn-2 {
+  color: #f7f7f7;
+  padding: 12px 17px;
+  margin: 0 auto;
+  font-family: 'OpenSansBold', sans-serif;
+  border: 3px solid #f7f7f7;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+  background-color: transparent;
+  background-image: linear-gradient(45deg, #0f345b 80%, transparent 51%);
+  background-size: 100px 100px;
+  /* some initial size to get the slanted appearance */
+  background-position: -100px 0px;
+  /* negative positioning to hide it initially */
+  background-repeat: no-repeat;
+  transition: all ease 0.3s;
+}
+/* line 23, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/_mixins.scss */
+.btn-2 a {
+  color: #f7f7f7;
+}
+/* line 26, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/_mixins.scss */
+.btn-2:hover {
+  background-size: 200% 200%;
+  /* 200% because gradient is colored only for 50% */
+  background-position: 0px 0px;
+  /* bring it fully into view */
+  color: #FFF;
+}
+
+/* line 338, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.btn-3 {
+  color: #0f345b;
+  padding: 12px 17px;
+  margin: 0 auto;
+  font-family: 'OpenSansBold', sans-serif;
+  border: 3px solid #0f345b;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+  background-color: transparent;
+  background-image: linear-gradient(45deg, #f7f7f7 80%, transparent 51%);
+  background-size: 100px 100px;
+  /* some initial size to get the slanted appearance */
+  background-position: -100px 0px;
+  /* negative positioning to hide it initially */
+  background-repeat: no-repeat;
+  transition: all ease 0.3s;
+}
+/* line 23, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/_mixins.scss */
+.btn-3 a {
+  color: #0f345b;
+}
+/* line 26, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/_mixins.scss */
+.btn-3:hover {
+  background-size: 200% 200%;
+  /* 200% because gradient is colored only for 50% */
+  background-position: 0px 0px;
+  /* bring it fully into view */
+  color: #0f345b;
+}
+
+@media screen and (max-width: 414px) {
+  /* line 342, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+  #banner {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: url("background.jpg") no-repeat bottom center scroll;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  /* line 351, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+  #banner .cover-pic {
+    height: 100%;
+    width: 100%;
+    background: url("cover-pic.svg") no-repeat bottom center scroll;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  /* line 360, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+  #banner .text-box {
+    padding: 50% 0 0 0.1%;
+  }
+  /* line 362, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+  #banner .text-box h2 {
+    padding: 2rem 2rem 2rem 2rem;
+    margin: 0 20% 0 2%;
+    background-color: #10608c;
+  }
+  /* line 368, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+  #banner .text-box-2 {
+    padding: 5% 0 0 4%;
+  }
+  /* line 370, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+  #banner .text-box-2 h2 {
+    padding: 2.5rem 2rem 2.5rem 2rem;
+    margin: 5% 2% 0 2%;
+    background-color: #10608c;
+  }
+}
+/* line 378, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/newcomer.scss */
+.end-qna {
+  padding: 80px 0 80px 0;
+  text-align: center;
+  background-color: #10608c;
+}

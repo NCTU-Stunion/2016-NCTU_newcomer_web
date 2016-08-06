@@ -1,0 +1,44 @@
+/* line 1, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/setup.scss */
+.setup-container {
+  margin-top: 80px;
+}
+/* line 3, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/setup.scss */
+.setup-container span.setup-header {
+  text-align: center;
+}
+/* line 5, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/setup.scss */
+.setup-container span.setup-header h2 {
+  color: #272853;
+  padding: 8px;
+}
+/* line 10, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/setup.scss */
+.setup-container li, .setup-container h3, .setup-container h4, .setup-container p {
+  font-weight: 500;
+  font-size: 1.21em;
+  padding: 8px;
+}
+/* line 15, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/setup.scss */
+.setup-container img.resize-img {
+  width: 100%;
+  height: 100%;
+}
+/* line 19, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/setup.scss */
+.setup-container .steps-header {
+  color: #353535;
+}
+/* line 21, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/setup.scss */
+.setup-container .steps-header a {
+  text-transform: lowercase;
+}
+/* line 25, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/setup.scss */
+.setup-container .reminder, .setup-container span.header {
+  padding: 80px 12px 80px 12px;
+  background-color: #f2b910;
+  color: #353535;
+  text-align: center;
+}
+/* line 31, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/setup.scss */
+.setup-container li, .setup-container p {
+  font-size: 1.25em;
+  color: #353535;
+}

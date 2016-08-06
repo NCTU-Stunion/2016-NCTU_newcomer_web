@@ -29,8 +29,10 @@
     </ul>
   </div>
   <div class="col-lg-4 col-lg-offset-1 col-sm-3">
-    <a href="https://stunion.nctu.edu.tw/blog/" target="_blank"><img src="assets/logo.png" class="footer-logo"></a>
-    <a href="https://plus.nctu.edu.tw" target="_blank"><img src="assets/nctuplus.png" class="footer-logo">	</a>
+    <%#<a href="https://stunion.nctu.edu.tw/blog/" target="_blank"><img src="assets/logo.png" class="footer-logo"></a>%>
+    <%#<a href="https://plus.nctu.edu.tw" target="_blank"><img src="assets/nctuplus.png" class="footer-logo">	</a>%>
+    <a href="https://stunion.nctu.edu.tw/blog/" target="_blank"><%= image_tag 'logo.png', :class => 'footer-logo' %></a>
+    <a href="https://plus.nctu.edu.tw" target="_blank"><%= image_tag 'nctuplus.png', :class => 'footer-logo' %></a>
     <div class="footer-lower-bar">
       <span>© Copy Rights 2016 交大學聯會資訊部、NCTU+ </span>
     </div>

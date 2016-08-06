@@ -1,0 +1,212 @@
+/* line 1, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.glyphicon {
+  margin-right: 5px;
+}
+
+/* line 2, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.thumbnail {
+  margin-bottom: 20px;
+  padding: 13px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+
+/* line 10, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.navbar-custom {
+  background-color: #fff;
+}
+
+/* line 13, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.item.list-group-item {
+  float: none;
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+/* line 20, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.item.list-group-item:nth-of-type(odd):hover, .item.list-group-item:hover {
+  background: #428bca;
+}
+
+/* line 25, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.item.list-group-item .list-group-image {
+  margin-right: 10px;
+}
+
+/* line 29, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.item.list-group-item .thumbnail {
+  margin-bottom: 0px;
+}
+
+/* line 33, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.item.list-group-item .caption {
+  padding: 9px 9px 0px 9px;
+}
+
+/* line 37, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.item.list-group-item:nth-of-type(odd) {
+  background: #eeeeee;
+}
+
+/* line 42, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.item.list-group-item:before, .item.list-group-item:after {
+  display: table;
+  content: " ";
+}
+
+/* line 48, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.item.list-group-item img.group {
+  position: absolute;
+  background: blue;
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+}
+
+/* line 55, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.item.list-group-item:after {
+  clear: both;
+}
+
+/* line 59, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.list-group-item-text {
+  margin: 0 0 11px;
+}
+
+/* line 63, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.list-group-image {
+  animation: slide-in 0.5s forwards;
+  -webkit-animation: slide-in 0.5s forwards;
+}
+
+@keyframes list-group-image {
+  100% {
+    transform: translateX(0%);
+  }
+}
+@-webkit-keyframes list-group-image {
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+}
+/* line 75, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+span.header {
+  text-align: center;
+}
+
+/* line 78, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+span.header p {
+  margin-top: 80px;
+  color: #353535;
+  font-weight: 600;
+  font-size: 2.3em;
+}
+
+/* 7-11 shopping list*/
+/* line 86, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.seven-header {
+  margin-top: 100px;
+  color: #353535;
+}
+
+/* line 90, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.seven-spacing {
+  margin-top: 100px;
+}
+
+/* line 93, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.seven-items {
+  font-size: 1.3em;
+}
+
+/* line 96, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.get {
+  list-style: none;
+  font-size: 1.5em;
+}
+
+/* line 100, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.banner-text {
+  text-align: center;
+}
+
+/* line 103, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+li, h3 {
+  color: #353535;
+}
+
+/* PROGRESS TRACKER */
+/* line 108, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.progress-tracker {
+  display: block;
+  counter-reset: item;
+  list-style-type: none;
+  overflow: auto;
+  position: relative;
+  width: 100%;
+}
+
+/* line 116, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.progress-tracker .step:before {
+  background: #458be3;
+  border-radius: 40px;
+  color: #FFFFFF;
+  content: "";
+  display: list-item;
+  font-size: 18px;
+  line-height: 1.8em;
+  padding: 1px 0 0 13px;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  content: counter(item) "  ";
+  counter-increment: item;
+}
+
+/* line 134, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.progress-tracker .step {
+  display: block;
+  float: left;
+  list-style-position: inside;
+  width: 20%;
+}
+
+/* line 140, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.progress-tracker .step .step-name {
+  border-top: 7px solid #aaa;
+  display: block;
+  margin: 15px 0;
+  padding: 20px 0;
+}
+
+/*last step*/
+/* line 147, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.progress-tracker .step:last-child {
+  width: auto;
+}
+
+/* line 148, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.progress-tracker .step:last-child .step-name {
+  border-color: transparent;
+}
+
+/*active step*/
+/* line 151, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.progress-tracker .step.active .step-name {
+  color: #666;
+}
+
+/* line 152, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.progress-tracker .step.active:before {
+  background: #458be3;
+}
+
+/* line 153, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/shopping.scss */
+.form {
+  min-width: 100%;
+  height: 500px;
+}

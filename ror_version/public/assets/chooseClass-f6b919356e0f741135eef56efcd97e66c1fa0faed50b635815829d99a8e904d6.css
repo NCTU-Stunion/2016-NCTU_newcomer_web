@@ -1,0 +1,94 @@
+/* line 1, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/chooseClass.scss */
+.cover {
+  background: #181063;
+  min-width: 100%;
+}
+
+/* line 6, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/chooseClass.scss */
+.course {
+  background: #EFEFEF;
+}
+
+@media (min-width: 1024px) {
+  /* line 11, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/chooseClass.scss */
+  .course {
+    max-width: 800px;
+  }
+}
+/* line 16, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/chooseClass.scss */
+.spacing {
+  padding-top: 50px;
+}
+
+/* line 20, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/chooseClass.scss */
+.group {
+  background: #5A63FF;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0.8em;
+}
+
+/* line 27, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/chooseClass.scss */
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 33, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/chooseClass.scss */
+.step {
+  display: block;
+  margin-bottom: 25px;
+}
+
+/* line 38, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/chooseClass.scss */
+.step .title-blk {
+  background: #ADADAD;
+  font-size: 18px;
+  padding: 1.5em 0 0.3em 0;
+  position: relative;
+}
+
+/* line 44, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/chooseClass.scss */
+.step .num {
+  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.6) 71%, transparent 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.6) 71%, transparent 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.6) 71%, transparent 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf000000', endColorstr='#00000000',GradientType=1 );
+  /* IE6-9 */
+  display: inline-block;
+  font-size: 22px;
+  height: 100%;
+  padding-left: 0.5em;
+  padding-right: 1em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3em;
+}
+
+/* line 61, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/chooseClass.scss */
+.step .mid-fix {
+  position: absolute;
+  margin-top: -0.4em;
+  top: 50%;
+}
+
+/* line 66, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/chooseClass.scss */
+.step .text {
+  color: #222;
+  display: inline-block;
+  margin-left: 4em;
+}
+
+/* line 71, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/chooseClass.scss */
+.step .content {
+  color: #333;
+  font-size: 14px;
+  margin-left: 3%;
+  margin-right: 3%;
+  line-height: 30px;
+}

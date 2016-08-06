@@ -1,0 +1,184 @@
+/* line 2, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+.spacing {
+  padding-top: 100px;
+}
+
+/* line 5, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+.curricular {
+  color: #272822;
+}
+
+/* line 8, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+.important {
+  margin-top: 80px;
+  text-align: center;
+  color: #353535;
+}
+
+/* line 13, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* line 20, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+table caption {
+  font-size: 1.5em;
+  margin: .25em 0 .75em;
+}
+
+/* line 24, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+table tr {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+/* line 29, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+
+/* line 34, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+/* line 39, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+table td img {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  /* line 43, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+  table {
+    border: 0;
+  }
+
+  /* line 46, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+  table caption {
+    font-size: 1.3em;
+  }
+
+  /* line 49, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+  table thead {
+    display: none;
+  }
+
+  /* line 52, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+
+  /* line 57, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+
+  /* line 63, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+  table td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  /* line 69, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+/* line 73, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+span {
+  text-align: center;
+  padding: auto;
+  margin: auto;
+}
+
+/* line 78, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+.pic-col {
+  height: 400px;
+  padding-top: 0;
+  margin-top: 0;
+  background-color: #040308;
+  z-index: 1;
+}
+/* line 84, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+.pic-col img {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+/* line 94, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+.text-col {
+  min-width: 450px;
+  height: 400px;
+  padding-top: 120px;
+  text-align: center;
+  z-index: 3;
+}
+/* line 100, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+.text-col hr {
+  width: 80px;
+  border-width: 2px;
+  border-color: #353535;
+}
+/* line 105, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+.text-col section.icons {
+  margin: auto;
+}
+/* line 107, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+.text-col section.icons p {
+  display: inline-block;
+  margin: 0 20px 0 20px;
+  padding-top: 8px;
+  background-color: #00aee9;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  /* line 120, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+  .pic-col img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* line 125, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+  .text-col {
+    min-width: 300px;
+    z-index: 3;
+  }
+}
+/* line 130, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+.minor-1 {
+  background-color: #ffffff !important;
+}
+
+/* line 133, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+.minor-2 {
+  background-color: #ede9da !important;
+}
+
+/* line 136, /Users/bigmaker/projects/2016-NCTU_newcomer_web/ror_version/app/assets/stylesheets/curricular.scss */
+.minor-3 {
+  background-color: #eeeeee !important;
+}
