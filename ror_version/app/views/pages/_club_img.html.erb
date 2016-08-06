@@ -1,24 +1,24 @@
 <% if pull %>
-    <% if data[:color] == "white" %> 
+    <% if club[:color] == "white" %> 
         <div class="col-sm-6 col-sm-pull-6 pic-col minor-1">
-    <% elsif data[:color] == "milk" %> 
+    <% elsif club[:color] == "milk" %> 
         <div class="col-sm-6 col-sm-pull-6 pic-col minor-2">
-    <% elsif data[:color] == "grey" %> 
+    <% elsif club[:color] == "grey" %> 
         <div class="col-sm-6 col-sm-pull-6 pic-col minor-3">
     <% else %>
         <div class="col-sm-6 col-sm-pull-6 pic-col">
     <% end %>
 <% else %>
-    <% if data[:color] == "white" %> 
+    <% if club[:color] == "white" %> 
         <div class="col-sm-6 pic-col minor-1">
-    <% elsif data[:color] == "milk" %> 
+    <% elsif club[:color] == "milk" %> 
         <div class="col-sm-6 pic-col minor-2">
-    <% elsif data[:color] == "grey" %> 
+    <% elsif club[:color] == "grey" %> 
         <div class="col-sm-6 pic-col minor-3">
     <% else %>
         <div class="col-sm-6 pic-col">
     <% end %>
 <% end %>
-    <%=raw " <img src=\"/assets/#{category}/#{data[:img]}\" > " %>
+    <%= raw "<img src=\"/assets/#{category}/#{club[:img]}\" >" %>
 </div>
 

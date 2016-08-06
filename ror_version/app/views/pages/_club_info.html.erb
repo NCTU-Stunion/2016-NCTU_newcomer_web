@@ -3,26 +3,26 @@
 <% else %>
     <div class="col-sm-6 text-col">
 <% end %>
-    <h3><%=raw data[:name] %></h3>
+    <h3><%= club[:name] %></h3>
     <hr>
     <section class="icons">
-    <% if data[:fb] != nil %>
-        <%= link_to data[:fb], :target => '_blank' do %>
+    <% if club[:fb] != nil %>
+        <%= link_to club[:fb], :target => '_blank' do %>
             <p><i class="fa fa-facebook-official fa-lg"></i></p>
         <% end %>
     <% end %>
-    <% if data[:web] != nil %>
-        <%= link_to data[:web], :target => '_blank' do %>
+    <% if club[:web] != nil %>
+        <%= link_to club[:web], :target => '_blank' do %>
             <p><i class="fa fa-chrome fa-lg"></i></p>
         <% end %>
     <% end %>
-    <% if data[:pdf] != nil %>
-        <%= link_to "pdf/#{category}/#{data[:pdf]}", :target => '_blank' do %>
+    <% if club[:pdf] != nil %>
+        <%= link_to "pdf/#{category}/#{club[:pdf]}", :target => '_blank' do %>
             <p>PDF</p>
         <% end %>
     <% end %>
-    <% if data[:group] != nil %>
-        <%= link_to data[:group], :target => '_blank' do %>
+    <% if club[:group] != nil %>
+        <%= link_to club[:group], :target => '_blank' do %>
             <p>新生</p>
         <% end %>
     <% end %>

@@ -1,17 +1,17 @@
-<% datas.each_with_index do |data, counter| %>
-    <% if data[:img] != nil %>
+<% datas.each_with_index do |club, counter| %>
+    <% if club[:img] != nil %>
         <% if counter%2 == 0 %>
             <% # image left %>
-            <%= render 'club_info', :data => data, :category => category, :push => true %>
-            <%= render 'club_img', :data => data, :category => category, :pull => true %>
+            <%= render 'club_info', :club => club, :category => category, :push => true %>
+            <%= render 'club_img', :club => club, :category => category, :pull => true %>
         <% else %>
             <% # image right %>
-            <%= render 'club_info', :data => data, :category => category, :push => false %>
-            <%= render 'club_img', :data => data, :category => category, :pull => false %>
+            <%= render 'club_info', :club => club, :category => category, :push => false %>
+            <%= render 'club_img', :club => club, :category => category, :pull => false %>
         <% end %>
     <% else %>
         <% # only render info %>
-        <%= render 'club_info', :data => data, :category => category, :push => false %>
+        <%= render 'club_info', :club => club, :category => category, :push => false %>
     <% end %>
 <% end %>
 
