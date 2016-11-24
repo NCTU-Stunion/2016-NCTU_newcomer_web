@@ -5,3 +5,5 @@ There is two version of the newcomer website which one is written in PHP while t
 
 ##### For the ror_version static pages location: app/views/pages
 ##### to start development server simply : ./bin/rails s(be sure you are in ror_version directory)
+
+Contributor: @Kamigami55 @DBlackKat
